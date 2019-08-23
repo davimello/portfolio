@@ -1,0 +1,144 @@
+#main {
+    width: auto;
+    margin: auto;
+    box-sizing: border-box;
+}
+body {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    color: #000;
+    line-height: 25px;
+    margin: 0px;
+}    
+.topbar {
+    overflow: hidden;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.imgcontainer {
+    width: 100px;
+    float: left;
+    padding-left: 200px;
+}
+.imgcontainer img {
+     width: 60px;
+}
+.topnav {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;   
+    float: right;
+    padding-top: 35px;
+    padding-right: 180px;
+}
+.topnav a {
+    padding: 20px;
+    color: #000;
+    text-decoration: none;
+}
+.topnav a:hover {
+    color: #5CAE9D 
+}
+.about:hover ~ hr {
+  margin-left: 31%;
+}
+.contact:hover ~ hr {
+  margin-left: 67%;
+}
+hr {
+  height: .25rem;
+  width: 28%;
+  margin: 0;
+  background: #5cae9d;
+  border: none;
+  transition: .3s ease-in-out;
+}
+.profilepic {
+    width: auto;
+    height: 400px;
+    background-image: url(../images/daviportrait.jpg);
+    background-size: cover;
+    overflow: hidden;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+h1 {
+    padding-top: 80px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-size: 40pt;
+    color: #000;
+    padding-left: 200px;
+}
+.line {
+    border-bottom: 6px solid black;
+    margin: auto;
+    margin-left: 200px;
+    margin-right: 1175px;
+    width: 100px;
+    padding-top: 30px;
+}
+.columns {
+    width: auto;
+    text-align: justify;
+    padding-top: 30px;
+}
+.column1 {
+    width: 30%;
+    float: left;
+    padding-left: 200px;
+    padding-bottom: 20px;
+}
+.column2 {
+    width: 30%;
+    float: right;
+    padding-right: 200px;
+}
+.list {
+    width: auto;
+    clear: both;
+}
+h2 {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-size: 30pt;
+    color: #000;
+    padding-left: 200px;
+}
+.list p {
+    width: 30%;
+    float: left;
+    padding-left: 200px;
+}
+.list ul {
+    width: 30%;
+    float: left;
+    padding-left: 200px;
+    clear: both;
+    list-style-type: square;
+}
+.footer {
+    width: 100%;
+    height: 120px;
+    padding-top: 80px;
+    text-align: center;
+    clear: both;
+}
+.center {
+    display: inline-block;
+    font-size: 25px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.fa {
+    padding: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa-behance, .fa-instagram, .fa-linkedin {
+    color: #000;
+}
+.center p {
+    font-family: inherit;
+    font-size: 14px;
+}   

@@ -1,0 +1,137 @@
+@import url("https://use.typekit.net/oyu8rfk.css");
+
+body {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    color: #000;
+    line-height: 25px;
+    margin: 0px;
+}    
+
+/* Hero */
+
+.logo {
+    width: 60px;
+    padding-top: 30px;
+}
+
+.content {
+    padding: 300px 0 300px 0;
+}
+
+h1 {
+    padding-bottom: 10px;
+}
+
+.bg {
+    background-image: url(../images/profile.jpg);
+    background-size: cover;
+    overflow: hidden;
+    background-position: 70% 40%; 
+}
+
+button.btn.see-more {
+    text-align: left;
+    padding-left: 0;
+    padding-right: 5px;
+    color: #5CAE9D;
+}
+
+.see-more {
+    margin: 0px;
+    letter-spacing: 1.5px;
+}
+
+.arrow {
+    width: 18%;
+}
+
+#menu {
+    float: right;
+}
+
+.menu-open {
+    width: 30px;
+    padding-top: 60px;
+}
+
+.menu-close {
+    width: 18px;
+    padding-top: 60px;
+    display: none;
+}
+
+/* About */
+
+.about {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.about-photo {
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.about-photo img {
+    margin: 0 auto;
+}
+
+.about p {
+    padding-top: 40px;
+    color: #989898;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.see-resume {
+    margin: 0px;
+    letter-spacing: 1.5px;
+}
+
+button.btn.see-resume {
+    text-align: center;
+    padding-left: 0;
+    padding-right: 5px;
+    color: #5CAE9D;
+}
+
+/* Portfolio */
+
+.portfolio {
+    padding-top: 60px;
+    text-align: center;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: 120px;
+    padding-top: 80px;
+    text-align: center;
+    clear: both;
+}
+.center {
+    display: inline-block;
+    font-size: 25px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.fa {
+    padding: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa-github, .fa-dribbble, .fa-linkedin {
+    color: #000;
+}
+.center p {
+    font-family: inherit;
+    font-size: 14px;
+}
+
+
+

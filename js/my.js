@@ -1,7 +1,11 @@
     console.log("Hey, I'm ready");
+
+    $( document ).ready(function() {
+      $("#menu2").css("display", "none");
     
     $(function () {
-      $("#menu").click(function () {
-        $("img").toggle()
+      $("img").click(function () {
+        $(".menu-close").toggle(".menu-open");
       })
     });
+  });

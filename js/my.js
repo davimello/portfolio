@@ -1,11 +1,8 @@
-    console.log("Hey, I'm ready");
+    console.log("I can see you! Welcome to my website 🙃");
 
-    $( document ).ready(function() {
-      $("#menu2").css("display", "none");
-    
-    $(function () {
-      $("img").click(function () {
-        $(".menu-close").toggle(".menu-open");
+    $(document).ready(function() {
+      $('.icon').on('click', function(){
+        $('.icon').toggleClass('active');
+        $('.categories').toggleClass('active');
       })
     });
-  });

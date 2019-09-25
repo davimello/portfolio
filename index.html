@@ -22,31 +22,28 @@
   <div class="container">
 
     <div class="row">
-      <div class="col-sm-6">
+      <div class="col">
         <a href="index.html">
           <img class="logo" src="images/logo.png" alt="Davi Mello logo">
         </a>
 
-
-
-        <div id="menu">
-          <img class="menu-open" src="images/menu.svg" alt="Hamburger menu">
+        <div class="icon">
+          <div class="hamburger">
+          </div>
         </div>
 
-        <div id="menu2">
-          <img class="menu-close" src="images/close.svg" alt="Hamburger menu">
-        </div>
-
+        <div class="categories"><a href="#about">About</a><a href="#porfolio">Portfolio</a><a
+            href="#contact">Contact</a></div>
 
 
         <div class="content">
-          <h1>Good design brings people<br>together in some way.</h1>
-          <button type="button" class="btn see-more">SEE MORE
-            <img class="arrow" src="images/arrow.svg" alt="Arrow"></button>
+          <h1 class="quote">Good design brings people<br>together in some way.</h1>
+          <a class="btn see-more" href="#about">SEE MORE
+            <img class="arrow" src="images/arrow.svg" alt="Arrow"></a>
         </div>
       </div>
 
-      <div class="col-sm-6 bg">
+      <div class="col bg">
 
       </div>
     </div>
@@ -54,7 +51,7 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-sm about">
+      <div class="col about" id="about">
         <h2>Hi there! I'm Davi Mello!</h2>
         <img class="about-photo" src="images/headshot.png" alt="Headshot Davi">
         <p>I'm a Full Stack Developer and UI/UX Designer focused on crafting clean &#38 user-friendly experiences.</p>
@@ -65,7 +62,7 @@
   </div>
 
   <div class="container">
-    <div class="col-sm portfolio">
+    <div class="col-sm portfolio" id="porfolio">
       <h2>Portfolio</h2>
     </div>
 
@@ -100,22 +97,21 @@
   </div>
 
   <div class="container">
-    <div class="row contact-form">
+    <div class="row contact-form" id="contact">
       <div class="col-sm">
-        <h2>Form</h2>
+        <h2>Contact</h2>
         <form>
-          <div class="form-group">
-            <label for="exampleFormControlInput1">Name</label>
-            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Davi Mello">
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlInput1">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-          </div>
+          <label for="name"></label>
+          <input type="text" id="name" name="name" placeholder="Name">
+
+          <label for="email"></label>
+          <input type="text" id="email" name="email" placeholder="E-mail">
+          
+          <label for="subject"></label>
+          <input type="text" id="subject" name="subject" placeholder="Subject">
+
+          <label for="message"></label>
+          <textarea id="message" name="message" placeholder="Message"></textarea>
 
           <button type="button" class="btn btn-form">SUBMIT
             <img class="arrow" src="images/arrow.svg" alt="Arrow"></button>

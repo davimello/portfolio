@@ -5,10 +5,12 @@
   <meta charset="utf-8">
   <meta name="description" content="Davi Mello">
   <title>Davi Mello</title>
-  <link href="css/styleindex.css" rel="stylesheet" type="text/css">
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/styleindex.css" rel="stylesheet" type="text/css">
+
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -19,10 +21,9 @@
 
 <body>
 
-  <div class="container">
-
+  <div class="container-fluid">
     <div class="row">
-      <div class="col">
+      <div class="col-6">
         <a href="index.html">
           <img class="logo" src="images/logo.png" alt="Davi Mello logo">
         </a>
@@ -43,13 +44,10 @@
         </div>
       </div>
 
-      <div class="col bg">
-
+      <div class="col-6 bg">
       </div>
     </div>
-  </div>
 
-  <div class="container">
     <div class="row">
       <div class="col about" id="about">
         <h2>Hi there! I'm Davi Mello!</h2>
@@ -59,10 +57,8 @@
           <img class="arrow" src="images/arrow.svg" alt="Arrow"></button>
       </div>
     </div>
-  </div>
 
-  <div class="container">
-    <div class="col-sm portfolio" id="porfolio">
+    <div class="col-sm portfolio">
       <h2>Portfolio</h2>
     </div>
 
@@ -75,14 +71,13 @@
         </div>
       </div>
 
-      <div class="card hovereffect">
+      <div class="card hovereffect middle-card">
         <img class="card-img-top img-responsive" src="images/travel.jpeg" alt="Card image cap">
         <div class="overlay">
           <h2>Liri Bot</h2>
           <a class="info" href="https://github.com/davimello/liri-node-app">SEE PROJECT</a>
         </div>
       </div>
-
 
       <div class="card hovereffect">
         <img class="card-img-top img-responsive" src="images/keyboard.jpg" alt="Card image cap">
@@ -91,14 +86,10 @@
           <a class="info" href="https://davimello.github.io/GifTastic/">SEE PROJECT</a>
         </div>
       </div>
-
-
     </div>
-  </div>
 
-  <div class="container">
-    <div class="row contact-form" id="contact">
-      <div class="col-sm">
+    <div class="row contact-form">
+      <div class="col">
         <h2>Contact</h2>
         <form>
           <label for="name"></label>
@@ -118,7 +109,6 @@
         </form>
       </div>
     </div>
-  </div>
 
   <div class="footer">
     <div class="center">
@@ -128,8 +118,7 @@
       <p>&#169; 2019 Davi Mello. All Rights Reserved.</p>
     </div>
   </div>
-  </div>
-
+</div>
 </body>
 
 </html>

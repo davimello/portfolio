@@ -98,6 +98,10 @@ a.btn.see-more {
     font-weight: 300;
 }
 
+a.btn.see-resume {
+    color: #5CAE9D;
+}
+
 .see-resume {
     margin: 0px;
     letter-spacing: 1.5px;
@@ -119,6 +123,7 @@ button.btn.see-resume {
 
 .card-deck {
     padding-top: 40px;
+    /* height: 500px; */
 }
 
 .card.hovereffect {
@@ -165,7 +170,7 @@ button.btn.see-resume {
     color:#fff;
     text-align: center;
     position: relative;
-    font-size: 17px;
+    font-size: 32px;
     -webkit-transform: translatey(-100px);
     -ms-transform: translatey(-100px);
     transform: translatey(-100px);

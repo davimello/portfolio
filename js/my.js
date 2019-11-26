@@ -7,16 +7,23 @@
         $('.categories').toggleClass('active');
       })
 
-    });
+    // function resize() {
+    //   if (window.matchMedia('(max-width: 767px)').matches) {
+    //     $('#hero').removeClass('col-6').addClass('col-lg');
+    // }};
     
-    $(window).resize(() => {
-      var width = $(window).width();
-        if (width < '812') {
-            $('#hero-bg').css('display', 'none');
-            $('.col-6').removeClass('col-6').addClass('col-lg');
-        }
-        else if (width >= '812') {
-            $('#hero-bg').css('display', 'block');
-            $('#hero').removeClass('col-lg').addClass('col-6');
-        }
+    // resize();
+
+      // $(window).resize(() => {
+      //   var width = $(window).width();
+      //     if (width < 768) {
+      //         // $('#hero-bg').hide();
+      //         $('.col-6').removeClass('col-6').addClass('col-lg');
+      //     }
+      //     else {
+      //         // $('#hero-bg').show();
+      //         $('#hero').removeClass('col-lg').addClass('col-6');
+      //     }
+      // });
+
     });

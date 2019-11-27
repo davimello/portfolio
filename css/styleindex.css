@@ -13,6 +13,10 @@ body {
 
 /* Hero */
 
+.icon-mobile {
+    display: none;
+}
+
 .logo {
     width: 60px;
     padding-top: 30px;
@@ -58,10 +62,15 @@ a.btn.see-more {
     display: none;
 }
 
+.categories a {
+    font-family: titling-gothic-fb, sans-serif;
+    font-weight: 300;
+}
+
 .active {
     float: right;
     display: inline;
-    padding-top: 51px;
+    padding-top: 57px;
     padding-right: 40px;
 }
 
@@ -163,7 +172,7 @@ button.btn.see-resume {
     opacity: 0;
     background-color:rgba(0,0,0,0.5);
     -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out
+    transition: all .4s ease-in-out;
 }
     
 .hovereffect img {
@@ -325,9 +334,9 @@ a.fa.fa-github:hover, a.fa.fa-dribbble:hover, a.fa.fa-linkedin:hover {
 
 /* Hamburger menu */
 
-.icon {
+.icon, .icon-mobile {
     position: absolute;
-    top: 7%;
+    top: 8%;
     left: 90%;
     transform: translate(-50%,-50%);
     width: 65px;
@@ -336,7 +345,7 @@ a.fa.fa-github:hover, a.fa.fa-dribbble:hover, a.fa.fa-linkedin:hover {
  }
 
  .hamburger {
-     /* width: 30px; */
+     position: absolute;
      height: 3px;
      background: #5CAE9D;
      position: absolute;
@@ -366,23 +375,88 @@ a.fa.fa-github:hover, a.fa.fa-dribbble:hover, a.fa.fa-linkedin:hover {
      top: 8px;
  }
 
-.icon.active .hamburger {
+.icon.active .hamburger, .icon-mobile.active .hamburger {
     background: rgba(0, 0, 0, 0);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
 }
 
-.icon.active .hamburger:before {
+.icon.active .hamburger:before, .icon-mobile.active .hamburger:before {
     top: 0;
     transform: rotate(45deg);
 }
 
-.icon.active .hamburger:after {
+.icon.active .hamburger:after, .icon-mobile.active .hamburger:after {
     top: 0;
     transform: rotate(135deg);
 }
 
+
+
+/* Mobile menu */
+
+.overlay-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9); 
+    overflow-x: hidden; 
+    transition: 0.5s; 
+  }
+  
+  .overlay-content {
+    position: relative;
+    font-family: titling-gothic-fb, sans-serif;
+    font-weight: 300;
+    line-height: 50px;
+    top: 25%; 
+    width: 100%; 
+    text-align: center; 
+    margin-top: 30px;
+  }
+
+  .overlay-menu a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s; 
+  }
+  
+  .overlay-menu a:hover, .overlay-menu a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay-menu .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  /* Hambutrger menu responsiveness */
+
+  @media screen and (max-width: 1000px) {
+    #icon-desktop {
+        display: none;
+    }
+
+    .icon-mobile {
+        display: block;
+    }
+  }
+
 /* Mobile */
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
+    .icon, .icon-mobile {
+        top: 7.5%;
+        left: 90%;
+    }
+
     #hero-bg {
         display: none;
     }
@@ -411,7 +485,7 @@ a.fa.fa-github:hover, a.fa.fa-dribbble:hover, a.fa.fa-linkedin:hover {
 }
 
 /* Smaller screens */
-@media only screen and (max-width: 575px) {
+@media screen and (max-width: 575px) {
     .card.hovereffect.third-card{
         margin-top: 15px;
     }
@@ -441,7 +515,28 @@ a.fa.fa-github:hover, a.fa.fa-dribbble:hover, a.fa.fa-linkedin:hover {
         margin-bottom: 40px;
     }
 
-    .icon {
+    .icon, .icon-mobile {
+        top: 6%;
         left: 87%;
-    }    
+    }
+    
+    .logo {
+        width: 50px;
+    }
+
+    .content {
+        padding-left: 15px;
+    }
+
+    #about {
+        padding-top: 0;
+    }
+    
+    .overlay-menu a {font-size: 30px}
+    .overlay-menu .closebtn {
+        font-size: 50px;
+        top: 15px;
+        right: 35px;
+        line-height: 15px;
+    }
 }

@@ -24,14 +24,16 @@
 <body>
 
   <div class="container-fluid">
-    
+
     <div class="row">
       <div class="col-6" id="hero">
         <a href="index.html">
           <img class="logo" src="images/logo.png" alt="Davi Mello logo">
         </a>
 
-        <div class="icon">
+        <!-- Desktop hamburger menu -->
+
+        <div class="icon" id="icon-desktop">
           <div class="hamburger">
           </div>
         </div>
@@ -39,6 +41,29 @@
         <div class="categories"><a href="#about">About</a><a href="#portfolio">Portfolio</a><a
             href="#contact">Contact</a></div>
 
+        <!-- Mobile hamburger menu -->
+
+        <div id="myNav" class="overlay-menu">
+
+          <div onclick="closeNav()" class="icon-mobile">
+            <div class="hamburger">
+            </div>
+          </div>
+
+          <div class="overlay-content">
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+          </div>
+
+        </div>
+
+        <div onclick="openNav()" class="icon-mobile">
+          <div class="hamburger">
+          </div>
+        </div>
+
+        <!-- Quote -->
 
         <div class="content">
           <h1 class="quote">Good design brings people<br>together in some way.</h1>
@@ -46,6 +71,8 @@
             <img class="arrow" src="images/arrow.svg" alt="Arrow"></a>
         </div>
       </div>
+
+      <!-- Hero background -->
 
       <div class="col-6 bg" id="hero-bg">
       </div>
@@ -56,13 +83,15 @@
       <div class="col about" id="about">
         <h2>Hi there! I'm Davi Mello!</h2>
         <img class="about-photo" src="images/headshot.png" alt="Headshot Davi">
-        <p class="container">Hello there! I'm a software engineer student, with a background in UI/UX Design. With projects ranging from finance app design to full-stack app development, my creativity has no limits and I’m always looking for ways to experiment outside the ordinary. Minimalism and collaboration inspire my works.</p>
+        <p class="container">Hello there! I'm a software engineer student, with a background in UI/UX Design. With
+          projects ranging from finance app design to full-stack app development, my creativity has no limits and I’m
+          always looking for ways to experiment outside the ordinary. Minimalism and collaboration inspire my works.</p>
         <a href="https://www.linkedin.com/in/daviavmello/" target="_blank" class="btn see-resume">SEE RESUME
           <img class="arrow" src="images/arrow.svg" alt="Arrow"></a>
       </div>
     </div>
 
-      
+
     <!-- Portfolio -->
     <div class="col-sm portfolio" id="portfolio">
       <h2>Portfolio</h2>
@@ -94,7 +123,7 @@
         </div>
       </div>
     </div>
-    
+
     <!-- Portfolio second row -->
     <div class="card-deck row">
       <div class="card hovereffect">
@@ -147,15 +176,15 @@
     </div>
   </div> -->
 
-  <div class="footer">
-    <div class="center">
-      <a href="https://github.com/davimello" class="fa fa-github" target="_blank"></a>
-      <a href="https://dribbble.com/davicreative" class="fa fa-dribbble" target="_blank"></a>
-      <a href="https://www.linkedin.com/in/daviavmello/" class="fa fa-linkedin" target="_blank"></a>
-      <p>&#169; 2019 Davi Mello. All Rights Reserved.</p>
+    <div class="footer">
+      <div class="center">
+        <a href="https://github.com/davimello" class="fa fa-github" target="_blank"></a>
+        <a href="https://dribbble.com/davicreative" class="fa fa-dribbble" target="_blank"></a>
+        <a href="https://www.linkedin.com/in/daviavmello/" class="fa fa-linkedin" target="_blank"></a>
+        <p>&#169; 2019 Davi Mello. All Rights Reserved.</p>
+      </div>
     </div>
   </div>
-</div>
 </body>
 
 </html>

@@ -4,12 +4,32 @@ console.log("I can see you! Welcome to my website 🙃");
 function openNav() {
   $(document.getElementById("myNav")).css("width", "100%");
   $(".icon-mobile").toggleClass("active");
-}
+};
 
 // Close mobile menu
 function closeNav() {
   $(document.getElementById("myNav")).css("width", "0%");
   $(".icon-mobile").toggleClass("active");
+};
+
+function darkMode() {
+  console.log("Dark");
+  
+  $(document.getElementById("darkMode")).css("display", "none");
+  $(document.getElementById("lightMode")).css("display", "block");
+  $("body").css({"background-color": "#011627"});
+  $("h1, h2, a.fa, .copyright, p.container").css({"color": "#f5f5f5"});
+  
+};
+
+function lightMode() {
+  console.log("Light");
+  
+  $(document.getElementById("lightMode")).css("display", "none");
+  $(document.getElementById("darkMode")).css("display", "block");
+  $("body").css({"background-color": "#fff"});
+  $("h1, h2, a.fa, .copyright, p.container").css({"color": "#000"});
+
 }
 
 // Mobile window

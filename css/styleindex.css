@@ -9,6 +9,7 @@ body {
     font-weight: 400;
     color: #000;
     line-height: 25px;
+    background-color: #fff;
 }   
 
 /* Hero */
@@ -28,7 +29,6 @@ body {
 }
 
 h1 {
-    /* position: absolute; */
     font-family: titling-gothic-fb, sans-serif;
     font-weight: 300;
     padding-bottom: 10px;
@@ -175,6 +175,10 @@ button.btn.see-resume {
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
 }
+
+.card.hovereffect, .card.hovereffect.middle-card, .card.hovereffect.third-card {
+    border: none;
+}    
     
 .hovereffect img {
     display: block;
@@ -201,13 +205,16 @@ button.btn.see-resume {
     display: inline-block;
     text-transform: uppercase;
     color:#fff;
+    letter-spacing: 1.5px;
+    /* border: 2px solid white;
+    border-radius: 20px; */
     background-color: transparent;
     opacity: 0;
     filter: alpha(opacity=0);
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     margin: 0 auto;
-    padding: 7px 14px;
+    padding: 7px 25px;
 }
     
 .hovereffect:hover img {
@@ -302,6 +309,14 @@ input[type=text]:focus, #message:focus {
     clear: both;
 }
 
+.darkMode, .lightMode {
+    cursor: pointer;
+}
+
+.lightMode {
+    display: none;
+}
+
 .center {
     display: inline-block;
     font-size: 25px;
@@ -392,7 +407,6 @@ a.fa.fa-github:hover, a.fa.fa-dribbble:hover, a.fa.fa-linkedin:hover {
 }
 
 
-
 /* Mobile menu */
 
 .overlay-menu {
@@ -439,7 +453,7 @@ a.fa.fa-github:hover, a.fa.fa-dribbble:hover, a.fa.fa-linkedin:hover {
     font-size: 60px;
   }
   
-  /* Hambutrger menu responsiveness */
+  /* Hamburger menu responsiveness */
 
   @media screen and (max-width: 1000px) {
     #icon-desktop {
@@ -452,6 +466,7 @@ a.fa.fa-github:hover, a.fa.fa-dribbble:hover, a.fa.fa-linkedin:hover {
   }
 
 /* Mobile */
+
 @media screen and (max-width: 768px) {
     .icon, .icon-mobile {
         top: 7.5%;
@@ -486,6 +501,7 @@ a.fa.fa-github:hover, a.fa.fa-dribbble:hover, a.fa.fa-linkedin:hover {
 }
 
 /* Smaller screens */
+
 @media screen and (max-width: 575px) {
     .card.hovereffect.third-card{
         margin-top: 15px;

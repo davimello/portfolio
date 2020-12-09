@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/utils/createElement",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/utils/createElement",
+  "module": "../../es/utils/createElement",
+  "types": "../../ts/utils/createElement"
+}

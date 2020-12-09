@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Page/PageWithHeader",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Page/PageWithHeader",
+  "module": "../../es/Page/PageWithHeader",
+  "types": "../../ts/Page/PageWithHeader"
+}

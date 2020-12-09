@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/FieldStack",
+  "private": true,
+  "sideEffects": false,
+  "main": "../lib/FieldStack",
+  "module": "../es/FieldStack",
+  "types": "../ts/FieldStack"
+}

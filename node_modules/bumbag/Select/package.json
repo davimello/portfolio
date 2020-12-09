@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Select",
+  "private": true,
+  "sideEffects": false,
+  "main": "../lib/Select",
+  "module": "../es/Select",
+  "types": "../ts/Select"
+}

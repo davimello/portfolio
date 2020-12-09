@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Button/ButtonClose",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Button/ButtonClose",
+  "module": "../../es/Button/ButtonClose",
+  "types": "../../ts/Button/ButtonClose"
+}

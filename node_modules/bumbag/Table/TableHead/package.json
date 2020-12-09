@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Table/TableHead",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Table/TableHead",
+  "module": "../../es/Table/TableHead",
+  "types": "../../ts/Table/TableHead"
+}

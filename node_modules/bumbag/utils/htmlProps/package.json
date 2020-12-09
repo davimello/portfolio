@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/utils/htmlProps",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/utils/htmlProps",
+  "module": "../../es/utils/htmlProps",
+  "types": "../../ts/utils/htmlProps"
+}

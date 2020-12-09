@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Menu/MenuOptionGroup",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Menu/MenuOptionGroup",
+  "module": "../../es/Menu/MenuOptionGroup",
+  "types": "../../ts/Menu/MenuOptionGroup"
+}

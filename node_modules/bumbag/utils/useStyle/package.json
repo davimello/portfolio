@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/utils/useStyle",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/utils/useStyle",
+  "module": "../../es/utils/useStyle",
+  "types": "../../ts/utils/useStyle"
+}

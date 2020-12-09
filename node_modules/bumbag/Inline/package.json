@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Inline",
+  "private": true,
+  "sideEffects": false,
+  "main": "../lib/Inline",
+  "module": "../es/Inline",
+  "types": "../ts/Inline"
+}

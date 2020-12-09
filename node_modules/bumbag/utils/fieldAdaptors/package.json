@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/utils/fieldAdaptors",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/utils/fieldAdaptors",
+  "module": "../../es/utils/fieldAdaptors",
+  "types": "../../ts/utils/fieldAdaptors"
+}

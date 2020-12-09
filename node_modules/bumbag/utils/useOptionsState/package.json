@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/utils/useOptionsState",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/utils/useOptionsState",
+  "module": "../../es/utils/useOptionsState",
+  "types": "../../ts/utils/useOptionsState"
+}

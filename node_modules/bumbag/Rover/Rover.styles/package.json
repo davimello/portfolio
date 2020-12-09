@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Rover/Rover.styles",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Rover/Rover.styles",
+  "module": "../../es/Rover/Rover.styles",
+  "types": "../../ts/Rover/Rover.styles"
+}

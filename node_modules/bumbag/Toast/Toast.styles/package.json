@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Toast/Toast.styles",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Toast/Toast.styles",
+  "module": "../../es/Toast/Toast.styles",
+  "types": "../../ts/Toast/Toast.styles"
+}

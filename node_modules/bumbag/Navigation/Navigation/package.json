@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Navigation/Navigation",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Navigation/Navigation",
+  "module": "../../es/Navigation/Navigation",
+  "types": "../../ts/Navigation/Navigation"
+}

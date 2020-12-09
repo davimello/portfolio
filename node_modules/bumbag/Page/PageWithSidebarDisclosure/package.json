@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Page/PageWithSidebarDisclosure",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Page/PageWithSidebarDisclosure",
+  "module": "../../es/Page/PageWithSidebarDisclosure",
+  "types": "../../ts/Page/PageWithSidebarDisclosure"
+}

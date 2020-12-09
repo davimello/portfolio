@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Link/LinkBlock",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Link/LinkBlock",
+  "module": "../../es/Link/LinkBlock",
+  "types": "../../ts/Link/LinkBlock"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/theme/letterSpacings",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/theme/letterSpacings",
+  "module": "../../es/theme/letterSpacings",
+  "types": "../../ts/theme/letterSpacings"
+}

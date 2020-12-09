@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Breadcrumb/Breadcrumb.styles",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Breadcrumb/Breadcrumb.styles",
+  "module": "../../es/Breadcrumb/Breadcrumb.styles",
+  "types": "../../ts/Breadcrumb/Breadcrumb.styles"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Text/TextInline",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Text/TextInline",
+  "module": "../../es/Text/TextInline",
+  "types": "../../ts/Text/TextInline"
+}

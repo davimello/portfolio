@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/theme/fontMetrics",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/theme/fontMetrics",
+  "module": "../../es/theme/fontMetrics",
+  "types": "../../ts/theme/fontMetrics"
+}

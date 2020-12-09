@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/DropdownMenu/DropdownMenuOptionItem",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/DropdownMenu/DropdownMenuOptionItem",
+  "module": "../../es/DropdownMenu/DropdownMenuOptionItem",
+  "types": "../../ts/DropdownMenu/DropdownMenuOptionItem"
+}

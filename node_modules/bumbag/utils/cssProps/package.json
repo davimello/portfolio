@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/utils/cssProps",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/utils/cssProps",
+  "module": "../../es/utils/cssProps",
+  "types": "../../ts/utils/cssProps"
+}

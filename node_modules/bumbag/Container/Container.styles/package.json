@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Container/Container.styles",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Container/Container.styles",
+  "module": "../../es/Container/Container.styles",
+  "types": "../../ts/Container/Container.styles"
+}

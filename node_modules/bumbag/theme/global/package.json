@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/theme/global",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/theme/global",
+  "module": "../../es/theme/global",
+  "types": "../../ts/theme/global"
+}

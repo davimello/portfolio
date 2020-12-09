@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Divider/Divider",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Divider/Divider",
+  "module": "../../es/Divider/Divider",
+  "types": "../../ts/Divider/Divider"
+}

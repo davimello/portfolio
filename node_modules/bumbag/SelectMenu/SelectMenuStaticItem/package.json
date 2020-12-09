@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/SelectMenu/SelectMenuStaticItem",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/SelectMenu/SelectMenuStaticItem",
+  "module": "../../es/SelectMenu/SelectMenuStaticItem",
+  "types": "../../ts/SelectMenu/SelectMenuStaticItem"
+}

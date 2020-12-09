@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/utils/useDefaultProps",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/utils/useDefaultProps",
+  "module": "../../es/utils/useDefaultProps",
+  "types": "../../ts/utils/useDefaultProps"
+}

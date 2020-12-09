@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/DropdownMenu/DropdownMenuPopover",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/DropdownMenu/DropdownMenuPopover",
+  "module": "../../es/DropdownMenu/DropdownMenuPopover",
+  "types": "../../ts/DropdownMenu/DropdownMenuPopover"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Badge/Badge.styles",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Badge/Badge.styles",
+  "module": "../../es/Badge/Badge.styles",
+  "types": "../../ts/Badge/Badge.styles"
+}

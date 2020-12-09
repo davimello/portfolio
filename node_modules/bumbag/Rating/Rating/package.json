@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Rating/Rating",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Rating/Rating",
+  "module": "../../es/Rating/Rating",
+  "types": "../../ts/Rating/Rating"
+}

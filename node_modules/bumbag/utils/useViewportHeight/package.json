@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/utils/useViewportHeight",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/utils/useViewportHeight",
+  "module": "../../es/utils/useViewportHeight",
+  "types": "../../ts/utils/useViewportHeight"
+}

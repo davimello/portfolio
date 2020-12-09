@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Table/TableFoot",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Table/TableFoot",
+  "module": "../../es/Table/TableFoot",
+  "types": "../../ts/Table/TableFoot"
+}

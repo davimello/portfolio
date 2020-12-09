@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Drawer/DrawerDisclosure",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Drawer/DrawerDisclosure",
+  "module": "../../es/Drawer/DrawerDisclosure",
+  "types": "../../ts/Drawer/DrawerDisclosure"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/ProgressBar",
+  "private": true,
+  "sideEffects": false,
+  "main": "../lib/ProgressBar",
+  "module": "../es/ProgressBar",
+  "types": "../ts/ProgressBar"
+}

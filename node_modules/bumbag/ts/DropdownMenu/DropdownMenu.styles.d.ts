@@ -1,0 +1,12 @@
+export declare const DropdownMenu: (styleProps: any) => string;
+export declare const DropdownMenuPopover: (styleProps: any) => string;
+export declare const DropdownMenuItem: (styleProps: any) => string;
+export declare const DropdownMenuButton: (styleProps: any) => string;
+export declare const DropdownMenuDisclosure: (styleProps: any) => string;
+export declare const DropdownMenuItemIcon: (styleProps: any) => string;
+export declare const DropdownMenuDivider: (styleProps: any) => string;
+export declare const DropdownMenuGroup: (styleProps: any) => string;
+export declare const DropdownMenuGroupTitle: (styleProps: any) => string;
+export declare const DropdownMenuOptionGroup: (styleProps: any) => string;
+export declare const DropdownMenuOptionItem: (styleProps: any) => string;
+export declare const DropdownMenuOptionItemIconWrapper: (styleProps: any) => string;

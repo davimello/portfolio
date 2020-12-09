@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Drawer/DrawerState",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Drawer/DrawerState",
+  "module": "../../es/Drawer/DrawerState",
+  "types": "../../ts/Drawer/DrawerState"
+}

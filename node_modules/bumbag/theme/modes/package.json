@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/theme/modes",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/theme/modes",
+  "module": "../../es/theme/modes",
+  "types": "../../ts/theme/modes"
+}

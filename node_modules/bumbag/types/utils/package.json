@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/types/utils",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/types/utils",
+  "module": "../../es/types/utils",
+  "types": "../../ts/types/utils"
+}

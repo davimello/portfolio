@@ -1,0 +1,22 @@
+{
+    "skills": [
+      {
+        "folder": "Skills & Interests",
+        "id": "lang",
+        "title": "Languages",
+        "info": "JavaScript, Java, and C++"
+      },
+
+      {
+        "id": "db",
+        "title": "Database",
+        "info": "SQL Server, MySQL, and MongoDB"
+      },
+
+      {
+        "id": "interests",
+        "title": "Interests",
+        "info": "Software system, AI, and Simulation Technology"
+      }
+    ]
+  }

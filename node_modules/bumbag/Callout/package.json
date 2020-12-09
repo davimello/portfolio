@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Callout",
+  "private": true,
+  "sideEffects": false,
+  "main": "../lib/Callout",
+  "module": "../es/Callout",
+  "types": "../ts/Callout"
+}

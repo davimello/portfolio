@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Link/Link",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Link/Link",
+  "module": "../../es/Link/Link",
+  "types": "../../ts/Link/Link"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/InlineFlex/InlineFlex",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/InlineFlex/InlineFlex",
+  "module": "../../es/InlineFlex/InlineFlex",
+  "types": "../../ts/InlineFlex/InlineFlex"
+}

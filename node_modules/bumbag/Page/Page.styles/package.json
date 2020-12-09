@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Page/Page.styles",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Page/Page.styles",
+  "module": "../../es/Page/Page.styles",
+  "types": "../../ts/Page/Page.styles"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/utils/palette",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/utils/palette",
+  "module": "../../es/utils/palette",
+  "types": "../../ts/utils/palette"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Modal/ModalDisclosure",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Modal/ModalDisclosure",
+  "module": "../../es/Modal/ModalDisclosure",
+  "types": "../../ts/Modal/ModalDisclosure"
+}

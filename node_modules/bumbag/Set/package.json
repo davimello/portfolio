@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Set",
+  "private": true,
+  "sideEffects": false,
+  "main": "../lib/Set",
+  "module": "../es/Set",
+  "types": "../ts/Set"
+}

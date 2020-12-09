@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Code",
+  "private": true,
+  "sideEffects": false,
+  "main": "../lib/Code",
+  "module": "../es/Code",
+  "types": "../ts/Code"
+}

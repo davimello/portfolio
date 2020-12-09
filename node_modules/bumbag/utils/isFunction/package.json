@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/utils/isFunction",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/utils/isFunction",
+  "module": "../../es/utils/isFunction",
+  "types": "../../ts/utils/isFunction"
+}

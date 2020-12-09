@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Pagination",
+  "private": true,
+  "sideEffects": false,
+  "main": "../lib/Pagination",
+  "module": "../es/Pagination",
+  "types": "../ts/Pagination"
+}

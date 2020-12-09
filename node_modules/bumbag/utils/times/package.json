@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/utils/times",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/utils/times",
+  "module": "../../es/utils/times",
+  "types": "../../ts/utils/times"
+}

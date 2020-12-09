@@ -1,0 +1,9 @@
+export declare const Menu: (styleProps: any) => string;
+export declare const MenuItem: (styleProps: any) => string;
+export declare const MenuItemIcon: (styleProps: any) => string;
+export declare const MenuDivider: (styleProps: any) => string;
+export declare const MenuGroup: (styleProps: any) => string;
+export declare const MenuOptionGroup: (styleProps: any) => string;
+export declare const MenuOptionItem: (styleProps: any) => string;
+export declare const MenuOptionItemIconWrapper: (styleProps: any) => string;
+export declare const MenuGroupTitle: (styleProps: any) => string;

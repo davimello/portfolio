@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Card",
+  "private": true,
+  "sideEffects": false,
+  "main": "../lib/Card",
+  "module": "../es/Card",
+  "types": "../ts/Card"
+}

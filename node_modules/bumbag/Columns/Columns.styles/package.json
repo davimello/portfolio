@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Columns/Columns.styles",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Columns/Columns.styles",
+  "module": "../../es/Columns/Columns.styles",
+  "types": "../../ts/Columns/Columns.styles"
+}

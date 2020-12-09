@@ -1,0 +1,1 @@
+export declare function getHiddenInputStyles({ iconClassName, checkedCss, disabledCheckedCss, disabledCheckedIconCss, disabledUncheckedIconCss, checkedIconCss, uncheckedIconCss, styleProps, themeKey, }: any): string;

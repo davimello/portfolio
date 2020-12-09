@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Portal/Portal.styles",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Portal/Portal.styles",
+  "module": "../../es/Portal/Portal.styles",
+  "types": "../../ts/Portal/Portal.styles"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Provider/GlobalStyles",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Provider/GlobalStyles",
+  "module": "../../es/Provider/GlobalStyles",
+  "types": "../../ts/Provider/GlobalStyles"
+}

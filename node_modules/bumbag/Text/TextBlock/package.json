@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Text/TextBlock",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Text/TextBlock",
+  "module": "../../es/Text/TextBlock",
+  "types": "../../ts/Text/TextBlock"
+}

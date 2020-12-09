@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/types/css",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/types/css",
+  "module": "../../es/types/css",
+  "types": "../../ts/types/css"
+}

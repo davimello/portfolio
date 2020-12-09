@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/utils/debounceAnimationFrame",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/utils/debounceAnimationFrame",
+  "module": "../../es/utils/debounceAnimationFrame",
+  "types": "../../ts/utils/debounceAnimationFrame"
+}

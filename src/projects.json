@@ -1,0 +1,39 @@
+{
+    "projects": [
+      {
+        "folder": "Projects",
+        "id": "veracruz",
+        "title": "Veracruz",
+        "info": "E-commerce virtual clothing store built with JavaScript utilizing technologies like React.js, Zustand, Emotion, Bumbag UI, and PayPal API.",
+        "link": "http://veracruz.netlify.app/"
+      },
+
+      {
+        "id": "tictactoe",
+        "title": "Tic Tac Toe",
+        "info": "Terminal application where you can play Tic Tac Toe on the terminal against the computer. Built with vanilla Java.",
+        "link": "https://github.com/daviavmello/TicTacToe"
+      },
+
+      {
+        "id": "liri",
+        "title": "Liri",
+        "info": "Liri will search Spotify for songs, Bands in Town for concerts, and OMDB for movies. Node.js, Axios, and Moment.js were utilized to build the app.",
+        "link": "https://github.com/daviavmello/liri-node-app"
+      },
+
+      {
+        "id": "weatherforecast",
+        "title": "Weather Forecast",
+        "info": "Back-end application that checks what are the sky's conditions and other features based on user data. Created with vanilla Java.",
+        "link": "https://github.com/daviavmello/WeatherForecast"
+      },
+
+      {
+        "id": "c++",
+        "title": "C++ Programming",
+        "info": "Various solutions to the book C++ Programming (From Problem Analyis to Program Design) by D. S. Malik using vanilla C++.",
+        "link": "https://github.com/daviavmello/cpp_programming"
+      }
+    ]
+  }

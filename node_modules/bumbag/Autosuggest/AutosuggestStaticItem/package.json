@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Autosuggest/AutosuggestStaticItem",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Autosuggest/AutosuggestStaticItem",
+  "module": "../../es/Autosuggest/AutosuggestStaticItem",
+  "types": "../../ts/Autosuggest/AutosuggestStaticItem"
+}

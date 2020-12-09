@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Table/TableHeadCell",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Table/TableHeadCell",
+  "module": "../../es/Table/TableHeadCell",
+  "types": "../../ts/Table/TableHeadCell"
+}

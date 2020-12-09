@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/utils/OutsideClickHandler",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/utils/OutsideClickHandler",
+  "module": "../../es/utils/OutsideClickHandler",
+  "types": "../../ts/utils/OutsideClickHandler"
+}

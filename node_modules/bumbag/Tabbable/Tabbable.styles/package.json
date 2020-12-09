@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Tabbable/Tabbable.styles",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Tabbable/Tabbable.styles",
+  "module": "../../es/Tabbable/Tabbable.styles",
+  "types": "../../ts/Tabbable/Tabbable.styles"
+}

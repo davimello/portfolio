@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Container",
+  "private": true,
+  "sideEffects": false,
+  "main": "../lib/Container",
+  "module": "../es/Container",
+  "types": "../ts/Container"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/theme/fontWeights",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/theme/fontWeights",
+  "module": "../../es/theme/fontWeights",
+  "types": "../../ts/theme/fontWeights"
+}

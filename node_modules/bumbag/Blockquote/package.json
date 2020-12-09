@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Blockquote",
+  "private": true,
+  "sideEffects": false,
+  "main": "../lib/Blockquote",
+  "module": "../es/Blockquote",
+  "types": "../ts/Blockquote"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Modal/ModalBackdrop",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Modal/ModalBackdrop",
+  "module": "../../es/Modal/ModalBackdrop",
+  "types": "../../ts/Modal/ModalBackdrop"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Modal",
+  "private": true,
+  "sideEffects": false,
+  "main": "../lib/Modal",
+  "module": "../es/Modal",
+  "types": "../ts/Modal"
+}

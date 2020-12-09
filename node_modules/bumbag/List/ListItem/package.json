@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/List/ListItem",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/List/ListItem",
+  "module": "../../es/List/ListItem",
+  "types": "../../ts/List/ListItem"
+}

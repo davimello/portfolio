@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/theme/borderRadii",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/theme/borderRadii",
+  "module": "../../es/theme/borderRadii",
+  "types": "../../ts/theme/borderRadii"
+}

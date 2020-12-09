@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Menu/MenuDivider",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Menu/MenuDivider",
+  "module": "../../es/Menu/MenuDivider",
+  "types": "../../ts/Menu/MenuDivider"
+}

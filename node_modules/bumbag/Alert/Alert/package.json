@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Alert/Alert",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Alert/Alert",
+  "module": "../../es/Alert/Alert",
+  "types": "../../ts/Alert/Alert"
+}

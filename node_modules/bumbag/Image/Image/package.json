@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Image/Image",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Image/Image",
+  "module": "../../es/Image/Image",
+  "types": "../../ts/Image/Image"
+}

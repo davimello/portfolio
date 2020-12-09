@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Checkbox/CheckboxGroup",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Checkbox/CheckboxGroup",
+  "module": "../../es/Checkbox/CheckboxGroup",
+  "types": "../../ts/Checkbox/CheckboxGroup"
+}

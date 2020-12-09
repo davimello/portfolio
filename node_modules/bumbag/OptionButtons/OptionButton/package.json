@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/OptionButtons/OptionButton",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/OptionButtons/OptionButton",
+  "module": "../../es/OptionButtons/OptionButton",
+  "types": "../../ts/OptionButtons/OptionButton"
+}

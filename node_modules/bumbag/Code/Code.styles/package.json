@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Code/Code.styles",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Code/Code.styles",
+  "module": "../../es/Code/Code.styles",
+  "types": "../../ts/Code/Code.styles"
+}

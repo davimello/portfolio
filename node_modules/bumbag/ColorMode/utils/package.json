@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/ColorMode/utils",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/ColorMode/utils",
+  "module": "../../es/ColorMode/utils",
+  "types": "../../ts/ColorMode/utils"
+}

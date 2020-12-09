@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/utils/merge",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/utils/merge",
+  "module": "../../es/utils/merge",
+  "types": "../../ts/utils/merge"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Table/TableBody",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Table/TableBody",
+  "module": "../../es/Table/TableBody",
+  "types": "../../ts/Table/TableBody"
+}

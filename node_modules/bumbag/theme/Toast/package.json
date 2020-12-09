@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/theme/Toast",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/theme/Toast",
+  "module": "../../es/theme/Toast",
+  "types": "../../ts/theme/Toast"
+}

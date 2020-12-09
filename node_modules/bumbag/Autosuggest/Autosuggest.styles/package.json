@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Autosuggest/Autosuggest.styles",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Autosuggest/Autosuggest.styles",
+  "module": "../../es/Autosuggest/Autosuggest.styles",
+  "types": "../../ts/Autosuggest/Autosuggest.styles"
+}

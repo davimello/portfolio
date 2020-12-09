@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/theme/spacing",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/theme/spacing",
+  "module": "../../es/theme/spacing",
+  "types": "../../ts/theme/spacing"
+}

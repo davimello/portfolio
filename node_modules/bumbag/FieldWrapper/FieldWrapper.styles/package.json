@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/FieldWrapper/FieldWrapper.styles",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/FieldWrapper/FieldWrapper.styles",
+  "module": "../../es/FieldWrapper/FieldWrapper.styles",
+  "types": "../../ts/FieldWrapper/FieldWrapper.styles"
+}

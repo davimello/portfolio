@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Toast/ToastContext",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Toast/ToastContext",
+  "module": "../../es/Toast/ToastContext",
+  "types": "../../ts/Toast/ToastContext"
+}

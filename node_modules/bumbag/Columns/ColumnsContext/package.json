@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Columns/ColumnsContext",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Columns/ColumnsContext",
+  "module": "../../es/Columns/ColumnsContext",
+  "types": "../../ts/Columns/ColumnsContext"
+}

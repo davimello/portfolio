@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Tabs/Tabs",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Tabs/Tabs",
+  "module": "../../es/Tabs/Tabs",
+  "types": "../../ts/Tabs/Tabs"
+}

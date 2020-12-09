@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/utils/parseIcons",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/utils/parseIcons",
+  "module": "../../es/utils/parseIcons",
+  "types": "../../ts/utils/parseIcons"
+}

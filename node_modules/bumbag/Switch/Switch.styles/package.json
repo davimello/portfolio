@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Switch/Switch.styles",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Switch/Switch.styles",
+  "module": "../../es/Switch/Switch.styles",
+  "types": "../../ts/Switch/Switch.styles"
+}

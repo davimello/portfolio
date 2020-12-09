@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/utils/colors",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/utils/colors",
+  "module": "../../es/utils/colors",
+  "types": "../../ts/utils/colors"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/utils/getCapsizeStyles",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/utils/getCapsizeStyles",
+  "module": "../../es/utils/getCapsizeStyles",
+  "types": "../../ts/utils/getCapsizeStyles"
+}

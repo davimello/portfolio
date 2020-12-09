@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Tooltip/Tooltip.styles",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Tooltip/Tooltip.styles",
+  "module": "../../es/Tooltip/Tooltip.styles",
+  "types": "../../ts/Tooltip/Tooltip.styles"
+}

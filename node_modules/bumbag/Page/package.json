@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Page",
+  "private": true,
+  "sideEffects": false,
+  "main": "../lib/Page",
+  "module": "../es/Page",
+  "types": "../ts/Page"
+}

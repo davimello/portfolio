@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Textarea",
+  "private": true,
+  "sideEffects": false,
+  "main": "../lib/Textarea",
+  "module": "../es/Textarea",
+  "types": "../ts/Textarea"
+}

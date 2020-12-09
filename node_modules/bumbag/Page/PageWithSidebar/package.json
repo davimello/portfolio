@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Page/PageWithSidebar",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Page/PageWithSidebar",
+  "module": "../../es/Page/PageWithSidebar",
+  "types": "../../ts/Page/PageWithSidebar"
+}

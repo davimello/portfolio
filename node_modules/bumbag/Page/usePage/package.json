@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Page/usePage",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Page/usePage",
+  "module": "../../es/Page/usePage",
+  "types": "../../ts/Page/usePage"
+}

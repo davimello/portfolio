@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/theme/borders",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/theme/borders",
+  "module": "../../es/theme/borders",
+  "types": "../../ts/theme/borders"
+}

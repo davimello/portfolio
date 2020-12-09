@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Radio/Radio.styles",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Radio/Radio.styles",
+  "module": "../../es/Radio/Radio.styles",
+  "types": "../../ts/Radio/Radio.styles"
+}

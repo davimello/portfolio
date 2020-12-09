@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Dialog/Dialog",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Dialog/Dialog",
+  "module": "../../es/Dialog/Dialog",
+  "types": "../../ts/Dialog/Dialog"
+}

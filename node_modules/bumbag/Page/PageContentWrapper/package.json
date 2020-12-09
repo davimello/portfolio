@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Page/PageContentWrapper",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Page/PageContentWrapper",
+  "module": "../../es/Page/PageContentWrapper",
+  "types": "../../ts/Page/PageContentWrapper"
+}

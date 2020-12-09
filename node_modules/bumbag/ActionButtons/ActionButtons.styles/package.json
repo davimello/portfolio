@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/ActionButtons/ActionButtons.styles",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/ActionButtons/ActionButtons.styles",
+  "module": "../../es/ActionButtons/ActionButtons.styles",
+  "types": "../../ts/ActionButtons/ActionButtons.styles"
+}

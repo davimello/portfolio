@@ -1,0 +1,9 @@
+export declare const Table: (styleProps: any) => string;
+export declare const TableHead: (styleProps: any) => string;
+export declare const TableRow: (styleProps: any) => string;
+export declare const TableHeadCell: (styleProps: any) => string;
+export declare const TableCell: (styleProps: any) => string;
+export declare const TableFoot: (styleProps: any) => string;
+export declare const TableBody: (styleProps: any) => string;
+export declare const TableWrapper: (styleProps: any) => string;
+export declare const tableHeadCellText: (styleProps: any) => import("@emotion/utils").SerializedStyles;

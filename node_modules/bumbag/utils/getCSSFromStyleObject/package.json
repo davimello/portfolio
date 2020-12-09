@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/utils/getCSSFromStyleObject",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/utils/getCSSFromStyleObject",
+  "module": "../../es/utils/getCSSFromStyleObject",
+  "types": "../../ts/utils/getCSSFromStyleObject"
+}

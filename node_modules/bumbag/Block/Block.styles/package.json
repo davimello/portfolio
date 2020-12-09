@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Block/Block.styles",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Block/Block.styles",
+  "module": "../../es/Block/Block.styles",
+  "types": "../../ts/Block/Block.styles"
+}

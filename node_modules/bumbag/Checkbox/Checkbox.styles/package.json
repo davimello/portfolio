@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Checkbox/Checkbox.styles",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Checkbox/Checkbox.styles",
+  "module": "../../es/Checkbox/Checkbox.styles",
+  "types": "../../ts/Checkbox/Checkbox.styles"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Label",
+  "private": true,
+  "sideEffects": false,
+  "main": "../lib/Label",
+  "module": "../es/Label",
+  "types": "../ts/Label"
+}

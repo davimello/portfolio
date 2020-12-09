@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/TopNav/TopNav",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/TopNav/TopNav",
+  "module": "../../es/TopNav/TopNav",
+  "types": "../../ts/TopNav/TopNav"
+}

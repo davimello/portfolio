@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Switch/SwitchGroup",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Switch/SwitchGroup",
+  "module": "../../es/Switch/SwitchGroup",
+  "types": "../../ts/Switch/SwitchGroup"
+}

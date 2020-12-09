@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Tag/Tag.styles",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Tag/Tag.styles",
+  "module": "../../es/Tag/Tag.styles",
+  "types": "../../ts/Tag/Tag.styles"
+}

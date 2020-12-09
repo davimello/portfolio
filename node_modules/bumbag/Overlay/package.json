@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Overlay",
+  "private": true,
+  "sideEffects": false,
+  "main": "../lib/Overlay",
+  "module": "../es/Overlay",
+  "types": "../ts/Overlay"
+}

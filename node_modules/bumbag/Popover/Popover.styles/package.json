@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Popover/Popover.styles",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Popover/Popover.styles",
+  "module": "../../es/Popover/Popover.styles",
+  "types": "../../ts/Popover/Popover.styles"
+}

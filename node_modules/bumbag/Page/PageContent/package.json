@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Page/PageContent",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Page/PageContent",
+  "module": "../../es/Page/PageContent",
+  "types": "../../ts/Page/PageContent"
+}

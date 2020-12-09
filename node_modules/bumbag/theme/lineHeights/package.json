@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/theme/lineHeights",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/theme/lineHeights",
+  "module": "../../es/theme/lineHeights",
+  "types": "../../ts/theme/lineHeights"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Block/Block",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Block/Block",
+  "module": "../../es/Block/Block",
+  "types": "../../ts/Block/Block"
+}

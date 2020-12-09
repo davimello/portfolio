@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/theme/fonts",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/theme/fonts",
+  "module": "../../es/theme/fonts",
+  "types": "../../ts/theme/fonts"
+}

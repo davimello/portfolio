@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Provider/ThemeContext",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/Provider/ThemeContext",
+  "module": "../../es/Provider/ThemeContext",
+  "types": "../../ts/Provider/ThemeContext"
+}

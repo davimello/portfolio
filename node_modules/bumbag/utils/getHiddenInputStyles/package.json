@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/utils/getHiddenInputStyles",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/utils/getHiddenInputStyles",
+  "module": "../../es/utils/getHiddenInputStyles",
+  "types": "../../ts/utils/getHiddenInputStyles"
+}

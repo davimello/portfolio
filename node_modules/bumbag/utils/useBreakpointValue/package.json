@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/utils/useBreakpointValue",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/utils/useBreakpointValue",
+  "module": "../../es/utils/useBreakpointValue",
+  "types": "../../ts/utils/useBreakpointValue"
+}

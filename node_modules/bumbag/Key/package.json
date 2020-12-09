@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/Key",
+  "private": true,
+  "sideEffects": false,
+  "main": "../lib/Key",
+  "module": "../es/Key",
+  "types": "../ts/Key"
+}

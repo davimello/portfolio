@@ -7,9 +7,7 @@ import {
   Heading,
   Container,
   Columns,
-  Text,
   Paragraph,
-  Badge,
 } from "bumbag";
 
 const Skill = ({ folder, title, info }) => (

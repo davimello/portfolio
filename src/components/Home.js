@@ -3,22 +3,10 @@ import Header from './Header'
 import About from './About'
 import Skills from './Skills'
 import Projects from './Projects'
-import { projects } from '../projects.json'
 
 import {
-  Card,
-  Box,
-  Button,
   Divider,
-  Image,
-  Stack,
-  Set,
-  Heading,
   Container,
-  Columns,
-  Text,
-  Paragraph,
-  Badge,
 } from "bumbag";
 
 const Home = () => (

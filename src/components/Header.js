@@ -50,7 +50,7 @@ const Header = () => (
           >
             Commit more.
             <br />
-            Keep current.
+            Stay current.
             <br />
             Grow every day.
           </Heading>

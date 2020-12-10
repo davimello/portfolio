@@ -4,7 +4,7 @@
         "folder": "Projects",
         "id": "veracruz",
         "title": "Veracruz",
-        "info": "E-commerce virtual clothing store built with JavaScript utilizing technologies like React.js, Zustand, Emotion, Bumbag UI, and PayPal API.",
+        "info": "E-commerce clothing store built with JavaScript utilizing technologies like React.js, Zustand, Emotion, Bumbag UI, and PayPal API.",
         "link": "http://veracruz.netlify.app/"
       },
 
@@ -18,7 +18,7 @@
       {
         "id": "liri",
         "title": "Liri",
-        "info": "Liri will search Spotify for songs, Bands in Town for concerts, and OMDB for movies. Node.js, Axios, and Moment.js were utilized to build the app.",
+        "info": "Liri will search Spotify for songs, Bands in town for concerts, and IMDB for movies. Node.js, Axios, and Moment.js were utilized to build the app.",
         "link": "https://github.com/daviavmello/liri-node-app"
       },
 

@@ -1,6 +1,5 @@
 import React from "react";
 import { projects } from "../projects.json";
-// import { Link } from "react-router-dom";
 
 import {
   Flex,

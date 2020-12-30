@@ -1,5 +1,4 @@
 import React from "react";
-// import { Code, Database, BookOpen } from "react-feather";
 import { skills } from '../skills.json'
 
 import {

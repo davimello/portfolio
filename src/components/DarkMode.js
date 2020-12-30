@@ -1,5 +1,4 @@
 import { Button, useColorMode } from "bumbag";
-// import React, { useState } from "react"
 import { Moon, Sun } from 'react-feather'
 
 const DarkMode = () => {

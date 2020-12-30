@@ -41,17 +41,6 @@ const Navbar = () => (
       >
         <DarkMode />
       </Columns.Column>
-
-      {/* <Columns.Column
-        spread={1}
-        spreadTablet={3}
-        spreadMobile={3}
-        textAlign={{ default: "center", "max-tablet": "end" }}
-      >
-        <button>
-          <MoreHorizontal />
-        </button>
-      </Columns.Column> */}
     </Columns>
   </Container>
 );

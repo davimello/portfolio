@@ -70,7 +70,7 @@ const Header = () => (
         display={{ default: "block", "max-tablet": "none" }}
       >
         <Image
-          src={`/img/profile.JPG`}
+          src={`/img/profile.webp`}
           alt=""
           fit="cover"
           width="fit-content"

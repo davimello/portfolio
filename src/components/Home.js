@@ -10,9 +10,9 @@ import {
 } from "bumbag";
 
 const Home = () => (
-  <Container breakpoint="max-desktop" paddingX="0" margin="0">
+  <Container isFluid breakpoint="max-desktop" paddingX="0" margin="0">
     <Header />
-    <Container padding="2rem 1rem">
+    <Container isFluid padding="2rem 1rem">
     <About />
     <Divider color='secondary' opacity='0.7' />
     <Skills/>

@@ -19,6 +19,7 @@ const Header = () => (
       <Columns.Column
         spreadTablet={12}
         spreadDesktop={6}
+        spreadWidescreen={6}
         textAlign="center"
         alignSelf="center"
         justifyContent={{ default: "center", "max-tablet": "unset" }}
@@ -64,6 +65,7 @@ const Header = () => (
         spreadMobile={0}
         spreadTablet={6}
         spreadDesktop={6}
+        spreadWidescreen={6}
         padding="0"
         display={{ default: "block", "max-tablet": "none" }}
       >
@@ -72,6 +74,7 @@ const Header = () => (
           alt=""
           fit="cover"
           width="fit-content"
+
           maxHeight="50rem"
         />
       </Columns.Column>

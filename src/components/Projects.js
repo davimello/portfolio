@@ -40,7 +40,7 @@ const Project = ({ folder, title, info, link }) => (
         paddingBottom={{ default: "4rem", "max-tablet": "2rem" }}
         alignItems="baseline"
         color="secondary"
-        lineHeight={{ default: "1.8rem", "max-tablet": "1.4rem" }}
+        lineHeight="1.8rem"
       >
         {info}
       </Paragraph>

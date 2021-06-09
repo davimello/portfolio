@@ -26,6 +26,7 @@ const AboutSection = ({ folder, info }) => (
         fontWeight={{ default: "semibold", "max-tablet": "normal" }}
         paddingTop="0"
         paddingBottom={{ default: "4rem", "max-tablet": "2rem" }}
+        lineHeight="1.8rem"
       >
         {info}
       </Heading>

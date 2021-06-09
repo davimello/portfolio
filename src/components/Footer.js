@@ -12,7 +12,11 @@ const Footer = () => (
       textAlign={{ default: "inherit", "max-tablet": "center" }}
     >
       <Stack>
-        <Stack orientation="horizontal" alignItems="flex-start" verticalBelow='mobile'>
+        <Stack
+          orientation="horizontal"
+          alignItems="flex-start"
+          verticalBelow="mobile"
+        >
           <Box>
             <Link to="/">
               <Logo style={{ height: "3.5rem", width: "auto" }} />
@@ -39,9 +43,9 @@ const Footer = () => (
           </Set>
         </Stack>
 
-        <Stack orientation="horizontal" verticalBelow='mobile'>
+        <Stack orientation="horizontal" verticalBelow="mobile">
           <Paragraph fontSize="100">
-            &#169;2020 Davi Mello. <br />
+            &#169;2021 Davi Mello. <br />
             All Rights Reserved.
           </Paragraph>
           <Paragraph

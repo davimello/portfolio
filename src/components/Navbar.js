@@ -7,7 +7,6 @@ import {
 
 import Logo from "./Logo";
 import DarkMode from "./DarkMode";
-// import { MoreHorizontal } from "react-feather";
 
 const EasterEgg = () => {
   console.log(

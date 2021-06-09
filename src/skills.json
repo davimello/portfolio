@@ -4,19 +4,19 @@
         "folder": "Skills & Interests",
         "id": "lang",
         "title": "Languages",
-        "info": "JavaScript, Java, and C++"
+        "info": "TypeScript, JavaScript, HTML & CSS, and Java."
       },
 
       {
-        "id": "db",
-        "title": "Database",
-        "info": "SQL Server, MySQL, and MongoDB"
+        "id": "frameworks",
+        "title": "Frameworks",
+        "info": "React & React Native, Redux, Context API, Git, MongoDB, Express.js, Node.js, jQuery, Ionic, Styled-Components."
       },
 
       {
         "id": "interests",
         "title": "Interests",
-        "info": "Software system, AI, and Simulation Technology"
+        "info": "User interface & experience, product development, scrum methodology."
       }
     ]
   }

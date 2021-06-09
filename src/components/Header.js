@@ -1,22 +1,17 @@
 import React from "react";
 import { Minus } from "react-feather";
 import ScrollDown from "./ScrollDown";
-import { Link } from 'react-scroll'
-import {
-  Box,
-  Image,
-  Heading,
-  Container,
-  Columns,
-  Text
-} from "bumbag";
+import { Link } from "react-scroll";
+import { Box, Image, Heading, Container, Columns, Text } from "bumbag";
 
-const EasterEgg = () => console.log('Ha! You found the easter egg! Thanks for visiting my website!')
+const EasterEgg = () =>
+  console.log("Ha! You found the easter egg! Thanks for visiting my website!");
 
 const Header = () => (
-  <Container isFluid paddingX="0" margin="0">
-    <Columns margin="0">
+  <Container isFluid paddingX="0" margin="0" height="100vh">
+    <Columns margin="0" height="100vh">
       <Columns.Column
+        spreadMobile={12}
         spreadTablet={12}
         spreadDesktop={6}
         spreadWidescreen={6}
@@ -38,7 +33,7 @@ const Header = () => (
             display="flex"
           >
             <Minus />
-            &nbsp;Davi Mello&nbsp; 
+            &nbsp;Davi Mello&nbsp;
             <span role="img" aria-label="emojis" onClick={EasterEgg}>
               {" "}
               👋
@@ -55,8 +50,8 @@ const Header = () => (
             <br />
             Grow every day.
           </Heading>
-          <Link to='about' spy={true} smooth={true}>
-          <ScrollDown />
+          <Link to="about" spy={true} smooth={false} offset={-50}>
+            <ScrollDown />
           </Link>
         </Box>
       </Columns.Column>
@@ -67,15 +62,17 @@ const Header = () => (
         spreadDesktop={6}
         spreadWidescreen={6}
         padding="0"
-        display={{ default: "block", "max-tablet": "none" }}
+        display={{
+          default: "block",
+          "max-tablet": "none",
+        }}
       >
         <Image
           src={`/img/profile.webp`}
           alt=""
           fit="cover"
           width="fit-content"
-
-          maxHeight="50rem"
+          height="100vh"
         />
       </Columns.Column>
     </Columns>

@@ -2,38 +2,39 @@
     "projects": [
       {
         "folder": "Projects",
+
+          "id": "blueship",
+          "title": "BlueShip",
+          "info": "BlueShip is a financial industry mobile app developed in Ionic, React, Typescript, NodeJS/Express, and MongoDB. It aims to be an all-in-one platform for tracking asset performance, including stocks, cryptocurrencies, and exchange-traded funds (ETF).",
+          "link": "https://www.linkedin.com/company/blueshipapp/"
+        },
+
+        {
         "id": "veracruz",
         "title": "Veracruz",
-        "info": "E-commerce clothing store built with JavaScript utilizing technologies like React.js, Zustand, Emotion, Bumbag UI, and PayPal API.",
+        "info": "E-commerce clothing store built with JavaScript utilizing React.js, Node.js, Bumbag UI, and PayPal API.",
         "link": "http://veracruz.netlify.app/"
       },
 
       {
-        "id": "tictactoe",
-        "title": "Tic Tac Toe",
-        "info": "Terminal application where you can play Tic Tac Toe on the terminal against the computer. Built with vanilla Java.",
-        "link": "https://github.com/daviavmello/TicTacToe"
+        "id": "checkapp",
+        "title": "Check app",
+        "info": "Full-stack desktop application that keeps track of weekly activities using virtual-like sticky notes. The front-end was built with React.js, React DnD, Tailwind CSS, Axios, and hosted on Netlify. The back-end was developed Node.js, Express.js, MySQL, and hosted on Heroku.",
+        "link": "https://check-app-tm.netlify.app/"
       },
 
       {
-        "id": "liri",
-        "title": "Liri",
-        "info": "Liri will search Spotify for songs, Bands in town for concerts, and IMDB for movies. Node.js, Axios, and Moment.js were utilized to build the app.",
-        "link": "https://github.com/daviavmello/liri-node-app"
-      },
-
-      {
-        "id": "weatherforecast",
-        "title": "Weather Forecast",
-        "info": "Back-end application that checks what are the sky's conditions and other features based on user data. Created with vanilla Java.",
-        "link": "https://github.com/daviavmello/WeatherForecast"
+        "id": "fibonacci",
+        "title": "Fibonacci",
+        "info": "Application that compares the speed complexity of the Fibonacci algorythm using recursion and iteration. Developed with React.js, Chart.js, and vanilla CSS.",
+        "link": "https://fibonacci-daviavmello.vercel.app/"
       },
 
       {
         "id": "c++",
         "title": "C++ Programming",
-        "info": "Various solutions to the book C++ Programming (From Problem Analyis to Program Design) by D. S. Malik using vanilla C++.",
-        "link": "https://github.com/daviavmello/cpp_programming"
+        "info": "Multi-task app that represents typical challenges in GUI programming by the Leibniz Universität Hannover. Vanilla JavaScript was the language chosen to accomplish the challenges.",
+        "link": "https://daviavmello.github.io/7GUIs/"
       }
     ]
   }

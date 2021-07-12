@@ -5,7 +5,7 @@
 
           "id": "blueship",
           "title": "BlueShip",
-          "info": "BlueShip is a financial industry mobile app developed in Ionic, React, Typescript, NodeJS/Express, and MongoDB. It aims to be an all-in-one platform for tracking asset performance, including stocks, cryptocurrencies, and exchange-traded funds (ETF).",
+          "info": "BlueShip is a financial industry mobile app developed in Ionic, React, Typescript, NodeJS/Express, and MongoDB. It is an all-in-one learning platform with risk-free investments, including asset track performance for stocks, cryptocurrencies, and exchange-traded funds (ETF).",
           "link": "https://www.linkedin.com/company/blueshipapp/"
         },
 

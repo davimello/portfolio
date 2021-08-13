@@ -71,7 +71,7 @@ const Header = () => (
           src={`/img/profile.webp`}
           alt=""
           fit="cover"
-          width="fit-content"
+          width="100vw"
           height="100vh"
         />
       </Columns.Column>

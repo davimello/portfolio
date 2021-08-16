@@ -17,7 +17,7 @@ const Footer = () => (
           alignItems="flex-start"
           verticalBelow="mobile"
         >
-          <Box>
+          <Box marginRight="0">
             <Link to="/">
               <Logo style={{ height: "3.5rem", width: "auto" }} />
             </Link>
@@ -31,6 +31,7 @@ const Footer = () => (
               use="a"
               href="https://www.linkedin.com/in/daviavmello/"
               target="_blank"
+              marginLeft="0.25rem"
             >
               <Linkedin />
             </Box>
@@ -44,7 +45,7 @@ const Footer = () => (
         </Stack>
 
         <Stack orientation="horizontal" verticalBelow="mobile">
-          <Paragraph fontSize="100">
+          <Paragraph fontSize="100" marginRight="0">
             &#169;2021 Davi Mello. <br />
             All Rights Reserved.
           </Paragraph>

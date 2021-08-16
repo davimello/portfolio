@@ -1,6 +1,6 @@
 import React from "react";
 import { Minus } from "react-feather";
-import ScrollDown from "./ScrollDown";
+import ButtonUI from "./ButtonUI";
 import { Link } from "react-scroll";
 import { Box, Image, Heading, Container, Columns, Text } from "bumbag";
 
@@ -51,7 +51,7 @@ const Header = () => (
             Grow every day.
           </Heading>
           <Link to="about" spy={true} smooth={false} offset={-50}>
-            <ScrollDown />
+            <ButtonUI name={"see more"} showButton />
           </Link>
         </Box>
       </Columns.Column>

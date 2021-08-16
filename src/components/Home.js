@@ -3,6 +3,7 @@ import Header from "./Header";
 import About from "./About";
 import Skills from "./Skills";
 import Projects from "./Projects";
+import Contact from "./Contact";
 
 import { Divider, Container } from "bumbag";
 
@@ -38,6 +39,16 @@ const Home = () => (
         }}
       />
       <Projects />
+      <Divider
+        color="secondary"
+        opacity="0.7"
+        margin={{
+          desktop: "0rem -12rem",
+          "min-desktop": "0rem 0rem",
+          mobile: "0rem 0rem",
+        }}
+      />
+      <Contact />
     </Container>
   </Container>
 );

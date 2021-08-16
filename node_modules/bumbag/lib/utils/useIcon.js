@@ -1,0 +1,60 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+require('react');
+require('../Provider/ThemeContext.js');
+require('classnames');
+require('@emotion/css');
+require('@emotion/react');
+require('@emotion/styled');
+var utils_useTheme = require('./useTheme.js');
+require('../_rollupPluginBabelHelpers-c170a0e0.js');
+var utils_parseIcons = require('./parseIcons.js');
+
+function useIcon(_ref) {
+  var _theme$icons$iconName, _theme$icons, _theme$icons$iconName2, _theme$icons$icons, _theme$icons2;
+
+  var initialIcon = _ref.icon,
+      type = _ref.type;
+
+  var _useTheme = utils_useTheme.useTheme(),
+      theme = _useTheme.theme; // @ts-ignore
+
+
+  var icon = (_theme$icons$iconName = theme === null || theme === void 0 ? void 0 : (_theme$icons = theme.icons) === null || _theme$icons === void 0 ? void 0 : (_theme$icons$iconName2 = _theme$icons.iconNames) === null || _theme$icons$iconName2 === void 0 ? void 0 : _theme$icons$iconName2[initialIcon]) !== null && _theme$icons$iconName !== void 0 ? _theme$icons$iconName : initialIcon;
+  var icons = (_theme$icons$icons = theme === null || theme === void 0 ? void 0 : (_theme$icons2 = theme.icons) === null || _theme$icons2 === void 0 ? void 0 : _theme$icons2.icons) !== null && _theme$icons$icons !== void 0 ? _theme$icons$icons : {};
+  var iconInfo = icons[icon];
+
+  if (type) {
+    // @ts-ignore
+    var parsedIcons = utils_parseIcons.parseIcons([icon], {
+      type: type
+    });
+    iconInfo = Object.entries(parsedIcons)[0][1];
+  } else if (typeof icon === 'object') {
+    iconInfo = icon;
+  }
+
+  var _ref2 = iconInfo || {},
+      _ref2$viewBoxWidth = _ref2.viewBoxWidth,
+      viewBoxWidth = _ref2$viewBoxWidth === void 0 ? 0 : _ref2$viewBoxWidth,
+      _ref2$viewBoxHeight = _ref2.viewBoxHeight,
+      viewBoxHeight = _ref2$viewBoxHeight === void 0 ? 0 : _ref2$viewBoxHeight,
+      _ref2$props = _ref2.props,
+      props = _ref2$props === void 0 ? {} : _ref2$props,
+      _ref2$paths = _ref2.paths,
+      paths = _ref2$paths === void 0 ? [] : _ref2$paths,
+      _ref2$tree = _ref2.tree,
+      tree = _ref2$tree === void 0 ? [] : _ref2$tree;
+
+  return {
+    viewBoxHeight: viewBoxHeight,
+    viewBoxWidth: viewBoxWidth,
+    props: props,
+    paths: paths,
+    tree: tree
+  };
+}
+
+exports.useIcon = useIcon;

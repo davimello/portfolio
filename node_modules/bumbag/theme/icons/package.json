@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/theme/icons",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/theme/icons",
+  "module": "../../es/theme/icons",
+  "types": "../../ts/theme/icons"
+}

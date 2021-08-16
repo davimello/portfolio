@@ -1,0 +1,8 @@
+{
+  "name": "bumbag/utils/useLabelPlaceholder",
+  "private": true,
+  "sideEffects": false,
+  "main": "../../lib/utils/useLabelPlaceholder",
+  "module": "../../es/utils/useLabelPlaceholder",
+  "types": "../../ts/utils/useLabelPlaceholder"
+}

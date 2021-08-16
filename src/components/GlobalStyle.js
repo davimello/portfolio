@@ -1,7 +1,7 @@
-import React from 'react'
-import { Global, css } from '@emotion/react'
+import React from "react";
+import { Global, css } from "@emotion/react";
 
-import wipe from 'wipe.css'
+import wipe from "wipe.css";
 
 const styles = css`
   ${wipe}
@@ -10,16 +10,23 @@ const styles = css`
     font-smoothing: antialised;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    -webkit-font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1, 'pnum' 0, 'tnum' 1, 'onum' 0, 'lnum' 1, 'dlig' 1, 'zero' 1, 'case' 1;
+    -webkit-font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 0,
+      "tnum" 1, "onum" 0, "lnum" 1, "dlig" 1, "zero" 1, "case" 1;
     background: var(--color-base00);
     color: var(--color-base);
     scroll-behavior: smooth;
   }
-  ::selection {
+  /* ::selection {
     background: var(--color-base);
     color: var(--color-base00);
+  } */
+  input {
+    -webkit-text-fill-color: var(--bb-palette-text) !important;
   }
-  html, body, #root, #root > div {
+  html,
+  body,
+  #root,
+  #root > div {
     min-height: 100%;
     display: flex;
     flex-direction: column;
@@ -29,8 +36,8 @@ const styles = css`
   main {
     flex: 1;
   }
-`
+`;
 
-const GlobalStyle = () => <Global styles={styles} />
+const GlobalStyle = () => <Global styles={styles} />;
 
-export default GlobalStyle
+export default GlobalStyle;

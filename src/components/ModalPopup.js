@@ -1,10 +1,11 @@
 import React from "react";
 import { Modal, Card, Box, Button, Heading, Paragraph, Flex } from "bumbag";
 
-const ModalPopup = ({ showModal }) => {
+const ModalPopup = ({ showModal, setShowModal }) => {
+  console.log(`Modal ${showModal}`)
   return (
-    <Modal.State animated visible={true}>
-      <Modal fade>
+    <Modal.State animated visible={showModal}>
+      <Modal fade hideOnEsc={false} hideOnClickOutside={false}>
         <Card>
           <Box>
             <Heading
@@ -40,7 +41,8 @@ const ModalPopup = ({ showModal }) => {
                   textTransform="uppercase"
                   color="contrast"
                   backgroundColor="primary"
-                  {...modalDisclosureProps}
+                  onClick={(e) => setShowModal(false)}
+                  // {...modalDisclosureProps}
                 >
                   Okay
                 </Button>

@@ -53,7 +53,7 @@ const Contact = () => {
       );
   };
 
-  console.log(name, email, message);
+  console.log(showModal)
 
   return (
     <Container padding="2rem 1rem">
@@ -78,7 +78,7 @@ const Contact = () => {
             onSubmit={(values, { resetForm }) => sendEmail(values, resetForm)}
           >
             <Form>
-              {showModal && <ModalPopup showModal={showModal} />}
+              {showModal && <ModalPopup showModal={showModal} setShowModal={setShowModal} />}
               <Stack spacing="major-6">
                 <Field
                   component={Input.Formik}

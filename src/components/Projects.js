@@ -55,8 +55,10 @@ const Projects = () => {
         <Project key={project.id} {...project} />
       ))}
 
-      <Columns.Column spread={4} spreadOffset="left">
-        <Text>You can see all projects on my GitHub&nbsp;</Text>
+      <Columns.Column spread={4} spreadOffset="left" paddingBottom="4rem">
+        <Text>
+          You can see all projects on my GitHub&nbsp;
+        </Text>
         <Text _hover={{ color: "terciary" }}>
           <a
             href={"https://github.com/daviavmello"}

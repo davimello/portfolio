@@ -56,7 +56,7 @@ const Contact = () => {
   console.log(showModal)
 
   return (
-    <Container padding="2rem 1rem">
+    <Container padding="2rem 1rem 4rem 1rem">
       <Flex
         display={{ default: "flex", "max-tablet": "block" }}
         alignX="center"

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Linkedin, GitHub, Twitter } from "react-feather";
+import { Linkedin, GitHub, Twitter, Dribbble } from "react-feather";
 
 import { Box, Container, Paragraph, Stack, Set } from "bumbag";
 import Logo from "./Logo";
@@ -40,6 +40,9 @@ const Footer = () => (
             </Box>
             <Box use="a" href="https://twitter.com/DaviMello" target="_blank">
               <Twitter />
+            </Box>
+            <Box use="a" href="https://dribbble.com/daviavmello" target="_blank">
+              <Dribbble />
             </Box>
           </Set>
         </Stack>

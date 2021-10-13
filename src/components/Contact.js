@@ -13,6 +13,7 @@ import emailjs from "emailjs-com";
 import ButtonUI from "./ButtonUI";
 import { Formik, Form, Field } from "formik";
 import ModalPopup from "./ModalPopup";
+import { Link } from "react-scroll";
 
 const Contact = () => {
   const [showButton, setShowButton] = useState(false);
@@ -53,8 +54,6 @@ const Contact = () => {
       );
   };
 
-  console.log(showModal)
-
   return (
     <Container padding="2rem 1rem 4rem 1rem" id="contact">
       <Flex
@@ -78,7 +77,9 @@ const Contact = () => {
             onSubmit={(values, { resetForm }) => sendEmail(values, resetForm)}
           >
             <Form>
-              {showModal && <ModalPopup showModal={showModal} setShowModal={setShowModal} />}
+              {showModal && (
+                <ModalPopup showModal={showModal} setShowModal={setShowModal} />
+              )}
               <Stack spacing="major-6">
                 <Field
                   component={Input.Formik}

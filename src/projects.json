@@ -1,47 +1,47 @@
 {
-    "projects": [
-      {
-        "folder": "Projects",
+  "projects": [
+    {
+      "folder": "Projects",
 
-          "id": "blueship",
-          "title": "BlueShip",
-          "info": "BlueShip is a financial industry mobile app developed in Ionic, React, Typescript, NodeJS/Express, and MongoDB. It is an all-in-one learning platform with risk-free investments, including asset track performance for stocks, cryptocurrencies, and exchange-traded funds (ETF).",
-          "link": "https://apps.apple.com/ca/app/blueship/id1573998645"
-       },
-        
-      {
-        "id": "sonahub",
-        "title": "Sonahub",
-        "info": "Search for GitHub repos & find recent commits ranked by stargazing count. Technologies used were TypeScript, React, Context API, Styled Components & Axios.",
-        "link": "https://sonahub.netlify.app/"
-      },
-        
-      {
-        "id": "dex",
-        "title": "Dex App",
-        "info": "Connect to your Metamask wallet to make crypto transactions getting quotes in real-time. Built with HTML, vanilla JavaScript, Moralis.js, and vanilla CSS.",
-        "link": "https://crypto-dex-web3.netlify.app/"
-      },
+      "id": "blueship",
+      "title": "BlueShip",
+      "info": "BlueShip is a financial industry mobile app developed in Ionic, React, Typescript, NodeJS/Express, and MongoDB. It is an all-in-one learning platform with risk-free investments, including asset track performance for stocks, cryptocurrencies, and exchange-traded funds (ETF).",
+      "link": "https://apps.apple.com/ca/app/blueship/id1573998645"
+    },
 
-      {
-        "id": "checkapp",
-        "title": "Check app",
-        "info": "Full-stack desktop application that keeps track of weekly activities using virtual-like sticky notes. The front-end was built with React.js, React DnD, Tailwind CSS, Axios, and hosted on Netlify. The back-end was developed Node.js, Express.js, MySQL, and hosted on Heroku.",
-        "link": "https://check-app-tm.netlify.app/"
-      },
+    {
+      "id": "sonahub",
+      "title": "Sonahub",
+      "info": "Search for GitHub repos & find recent commits ranked by stargazing count. Technologies used were TypeScript, React, Context API, Styled Components & Axios.",
+      "link": "https://sonahub.netlify.app/"
+    },
 
-      {
-        "id": "veracruz",
-        "title": "Veracruz",
-        "info": "E-commerce clothing store built with JavaScript utilizing React.js, Node.js, Bumbag UI, and PayPal API.",
-        "link": "http://veracruz.netlify.app/"
-      },
+    {
+      "id": "dex",
+      "title": "Dex App",
+      "info": "Connect to your Metamask wallet to make crypto transactions getting quotes in real-time. Built with HTML, vanilla JavaScript, Moralis.js, and vanilla CSS.",
+      "link": "https://crypto-dex-web3.netlify.app/"
+    },
 
-      {
-        "id": "fibonacci",
-        "title": "Fibonacci",
-        "info": "Application that compares the speed complexity of the Fibonacci algorythm using recursion and iteration. Developed with React.js, Chart.js, and vanilla CSS.",
-        "link": "https://fibonacci-daviavmello.vercel.app/"
-      }
-    ]
-  }
+    {
+      "id": "checkapp",
+      "title": "Check app",
+      "info": "Full-stack desktop application that keeps track of weekly activities using virtual-like sticky notes. The front-end was built with React.js, React DnD, Tailwind CSS, Axios, and hosted on Netlify. The back-end was developed Node.js, Express.js, MySQL, and hosted on Heroku.",
+      "link": "https://check-app-tm.netlify.app/"
+    },
+
+    {
+      "id": "veracruz",
+      "title": "Veracruz",
+      "info": "E-commerce clothing store built with JavaScript utilizing React.js, Node.js, Bumbag UI, and PayPal API.",
+      "link": "http://veracruz.netlify.app/"
+    },
+
+    {
+      "id": "fibonacci",
+      "title": "Fibonacci",
+      "info": "Application that compares the speed complexity of the Fibonacci algorythm using recursion and iteration. Developed with React.js, Chart.js, and vanilla CSS.",
+      "link": "https://fibonacci-daviavmello.vercel.app/"
+    }
+  ]
+}

@@ -1,7 +1,15 @@
 import React from "react";
 import { projects } from "../projects.json";
 
-import { Flex, Heading, Container, Columns, Text, Paragraph } from "bumbag";
+import {
+  Flex,
+  Heading,
+  Container,
+  Columns,
+  Text,
+  Paragraph,
+  Link,
+} from "bumbag";
 
 const Project = ({ folder, title, info, link }) => (
   <Flex
@@ -56,18 +64,21 @@ const Projects = () => {
       ))}
 
       <Columns.Column spread={4} spreadOffset="left" paddingBottom="4rem">
-        <Text>
+        <Text.Block>
           You can see all projects on my GitHub&nbsp;
-        </Text>
-        <Text _hover={{ color: "terciary" }}>
-          <a
+          <Link
+            _hover={{ color: "terciary" }}
+            color={"primary"}
+            fontWeight="normal"
+            style={{ textDecoration: "underline" }}
             href={"https://github.com/daviavmello"}
             rel="noreferrer"
             target="_blank"
           >
-            here.
-          </a>
-        </Text>
+            here
+          </Link>
+          .
+        </Text.Block>
       </Columns.Column>
     </Container>
   );

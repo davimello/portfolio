@@ -4,7 +4,7 @@
         "folder": "Skills & Interests",
         "id": "lang",
         "title": "Languages",
-        "info": "TypeScript, JavaScript, HTML & CSS, and Java."
+        "info": "TypeScript, JavaScript, HTML & SCSS."
       },
 
       {
@@ -16,7 +16,7 @@
       {
         "id": "interests",
         "title": "Interests",
-        "info": "User interface & experience, product development, scrum methodology."
+        "info": "Product development, component testing, and API integration."
       }
     ]
   }

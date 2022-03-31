@@ -13,7 +13,6 @@ import emailjs from "emailjs-com";
 import ButtonUI from "./ButtonUI";
 import { Formik, Form, Field } from "formik";
 import ModalPopup from "./ModalPopup";
-import { Link } from "react-scroll";
 
 const Contact = () => {
   const [showButton, setShowButton] = useState(false);

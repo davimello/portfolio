@@ -69,7 +69,7 @@ const Header = () => (
       >
         <Image
           src={`/img/profile.webp`}
-          alt=""
+          alt="Davi Mello outside typing on a MacBook laptop"
           fit="cover"
           width="100vw"
           height="100vh"

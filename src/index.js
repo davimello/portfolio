@@ -12,6 +12,7 @@ const theme = {
     contrast: "#f5f5f5",
 
     modes: {
+      useSystemColorMode: true,
       dark: {
         background: "#121212",
         text: "#f5f5f5",

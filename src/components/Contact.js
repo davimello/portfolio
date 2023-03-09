@@ -42,13 +42,12 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
           setShowModal(true);
           resetForm();
           setShowButton(false);
         },
         (error) => {
-          console.log(error.text);
+          console.error(error.text);
         }
       );
   };

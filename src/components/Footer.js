@@ -5,7 +5,9 @@ import { Linkedin, GitHub, Twitter, Dribbble } from "react-feather";
 import { Box, Container, Paragraph, Stack, Set } from "bumbag";
 import Logo from "./Logo";
 
-const Footer = () => (
+const Footer = () => {
+  const getYear = new Date().getFullYear();
+  return (
   <Box>
     <Container
       padding={{ default: "2rem 1rem", "max-tablet": "2rem 2rem" }}
@@ -49,7 +51,7 @@ const Footer = () => (
 
         <Stack orientation="horizontal" verticalBelow="mobile">
           <Paragraph fontSize="100" marginRight="0">
-            &#169;2021 Davi Mello. <br />
+            &#169;{getYear} Davi Mello. <br />
             All Rights Reserved.
           </Paragraph>
           <Paragraph
@@ -68,6 +70,6 @@ const Footer = () => (
       </Stack>
     </Container>
   </Box>
-);
+)};
 
 export default Footer;

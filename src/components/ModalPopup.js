@@ -2,7 +2,6 @@ import React from "react";
 import { Modal, Card, Box, Button, Heading, Paragraph, Flex } from "bumbag";
 
 const ModalPopup = ({ showModal, setShowModal }) => {
-  console.log(`Modal ${showModal}`)
   return (
     <Modal.State animated visible={showModal}>
       <Modal fade hideOnEsc={false} hideOnClickOutside={false}>

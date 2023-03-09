@@ -10,17 +10,17 @@
     },
 
     {
+      "id": "garage-door",
+      "title": "Garage Door Monitoring",
+      "info": "Home Automation app that runs a CRON job using a Lambda function that sends a text message to notify users if the garage door has been opened using AWS CloudWatch Events.",
+      "link": "https://github.com/daviavmello/garage-door-aws-cron"
+    },
+
+    {
       "id": "sonahub",
       "title": "Sonahub",
       "info": "Search for GitHub repos & find recent commits ranked by stargazing count. Technologies used were TypeScript, React, Context API, Styled Components & Axios.",
       "link": "https://sonahub.netlify.app/"
-    },
-
-    {
-      "id": "dex",
-      "title": "Dex App",
-      "info": "Connect to your Metamask wallet to make crypto transactions getting quotes in real-time. Built with HTML, vanilla JavaScript, Moralis.js, and vanilla CSS.",
-      "link": "https://crypto-dex-web3.netlify.app/"
     },
 
     {

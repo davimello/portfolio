@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body * {
+  @apply transition-colors duration-500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+span,
+button > span {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 14px;
+}
+
+// Adds .no-scrollbar class to prevent it from showing
+::-webkit-scrollbar {
+  display: none;
+}

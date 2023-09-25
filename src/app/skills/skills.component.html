@@ -1,0 +1,19 @@
+<ng-container *ngFor="let skills of skills$ | async">
+  <layout cols="3">
+    <div>
+      <h3 class="text-2xl text-blue-600 dark:text-blue-400">
+        {{ skills.folder }}
+      </h3>
+    </div>
+
+    <div>
+      <h3 class="text-2xl text-gray-900 dark:text-blue-400">
+        {{ skills.title }}
+      </h3>
+    </div>
+
+    <div>
+      <p class="text-lg text-gray-900 dark:text-white">{{ skills.info }}</p>
+    </div>
+  </layout>
+</ng-container>

@@ -1,0 +1,118 @@
+<!-- Scrim -->
+<div
+  class="w-full h-screen fixed top-0 left-0 z-10 backdrop-blur flex-none transition-colors duration-500 lg:z-50 lg:border-b lg:border-slate-900/10 dark:border-slate-50/[0.06] supports-backdrop-blur:bg-white/95 dark:bg-slate-900/75"
+></div>
+
+<!-- Drawer -->
+<div
+  class="overflow-hidden fixed top-[100vh] left-0 h-[70vh] z-50 w-full p-4 overflow-y-auto bg-white dark:bg-blue-900 transition-transform duration-300 transform border-t border-transparent rounded-t-xl shadow-contact"
+  tabindex="-1"
+  [class.!-translate-y-full]="toggleDrawer"
+  [class.!translate-y-0]="!toggleDrawer"
+  clickOutside
+  additionalElementClick="[role='alert']"
+  (clickOutside)="handleClickOutside()"
+>
+  <div>
+    <h3 class="text-2xl text-blue-600 dark:text-blue-400">Contact</h3>
+    <button
+      data-drawer-hide="drawer-bottom-example"
+      aria-controls="drawer-bottom-example"
+      class="text-gray-400bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-full text-sm w-8 h-8 absolute top-2.5 right-2.5 inline-flex items-center justify-center dark:text-white hover:bold"
+      (click)="handleHideDrawer()"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="h-6 w-6"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M6 18L18 6M6 6l12 12"
+        />
+      </svg>
+      <span class="sr-only">Close menu</span>
+    </button>
+  </div>
+  <p class="mb-6 text-lg text-gray-600 dark:text-white">
+    Let's sync our screens and build something amazing — drop me a message!
+  </p>
+
+  <form [formGroup]="form" (ngSubmit)="sendEmail($event)">
+    <!-- Name -->
+    <div class="relative z-0 w-full mb-6 group">
+      <input
+        type="name"
+        formControlName="name"
+        name="name"
+        id="name"
+        class="block py-2.5 px-0 w-full text-sm bg-transparent border-0 border-b border-gray-400 text-blue-500 appearance-none dark:text-white dark:border-white dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer duration-300 transform"
+        [class.!border-b-red-500]="formService.isFieldInvalid(form, 'name')"
+        placeholder=" "
+        required
+      />
+      <label
+        for="name"
+        class="peer-focus:font-medium absolute text-sm text-gray-400 dark:text-white duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-400 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+        [class.!text-red-500]="formService.isFieldInvalid(form, 'name')"
+        >Name</label
+      >
+    </div>
+
+    <!-- E-mail -->
+    <div class="relative z-0 w-full mb-6 group">
+      <input
+        type="email"
+        formControlName="email"
+        name="email"
+        id="email"
+        class="block py-2.5 px-0 w-full text-sm bg-transparent border-0 border-b border-gray-400 appearance-none dark:text-white dark:border-white dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer duration-300 transform"
+        [class.!border-b-red-500]="formService.isFieldInvalid(form, 'email')"
+        placeholder=" "
+        required
+      />
+      <label
+        for="email"
+        class="peer-focus:font-medium absolute text-sm text-gray-400 dark:text-white duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-400 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+        [class.!text-red-500]="formService.isFieldInvalid(form, 'email')"
+        >E-mail</label
+      >
+    </div>
+
+    <div class="relative z-0 w-full mb-6 group">
+      <textarea
+        type="text"
+        formControlName="message"
+        rows="4"
+        name="message"
+        id="message"
+        class="block py-2.5 px-0 w-full text-sm bg-transparent border-0 border-b border-gray-400 appearance-none dark:text-white dark:border-white dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer duration-300 transform"
+        [class.!border-b-red-500]="formService.isFieldInvalid(form, 'message')"
+        placeholder=" "
+        required
+      ></textarea>
+      <label
+        for="message"
+        class="peer-focus:font-medium absolute text-sm text-gray-400 dark:text-white duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-400 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+        [class.!text-red-500]="formService.isFieldInvalid(form, 'message')"
+        >Message</label
+      >
+    </div>
+
+    <div class="mt-6">
+      <custom-button
+        [disabled]="!form.valid"
+        [loading]="loading"
+        text="Send"
+        icon="send"
+        type="secondary"
+        buttonType="submit"
+        class="mr-4"
+      />
+    </div>
+  </form>
+</div>

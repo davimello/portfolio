@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# My Personal Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal portfolio website! This repository hosts the source code for my portfolio website, which is built using Angular and styled with Tailwind CSS. One of the key highlights of this project is the extensive use of Angular Standalone components, which enhances the modularity and maintainability of the code.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `yarn start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 1. Angular Standalone Components
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The backbone of this portfolio website is the use of Angular Standalone components. Each section of the website, such as the hero section, about me, projects & skills, and contact, is implemented as a separate Angular component. This modular approach makes it easy to manage and update different sections of the website independently. It also promotes code reusability, making it a breeze to add new sections or make changes in the future.
 
-### `yarn test`
+### 2. Tailwind CSS for Styling
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The website's sleek and responsive design is powered by Tailwind CSS. Tailwind CSS's utility-first approach allowed me to create a consistent and visually appealing layout without the need for custom CSS. It also makes it effortless to maintain responsive design across various screen sizes, ensuring that the portfolio looks great on both desktop and mobile devices.
 
-### `yarn build`
+### 3. Project Showcase
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+One of the core features of my portfolio is the project showcase section. It provides detailed information about the projects I've worked on, including project descriptions, technologies used, and links to GitHub repositories or live demos. Each project is displayed as a card, making it easy for visitors to explore my work.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 4. Skills and Expertise
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+In the skills section, I've listed my technical skills and areas of expertise. The use of Angular Standalone components allows me to easily update this section to reflect any changes in my skill set as I continue to grow in my career.
 
-### `yarn eject`
+### 5. Contact Information
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To encourage interaction and networking, my portfolio includes a contact section where visitors can get in touch with me. Whether it's for collaboration, inquiries, or just saying hello, I've made it convenient for visitors to reach out.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Demo
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+You can explore the live version of my portfolio website at [https://www.davimello.com](https://www.davimello.com).
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Installation
 
-## Learn More
+To run this project locally, follow these steps:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clone the repository: `git clone https://github.com/daviavmello/portfolio.git`
+2. Navigate to the project directory: `cd portfolio`
+3. Install dependencies: `npm install`
+4. Start the development server: `ng serve`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The website will be accessible at `http://localhost:4200/`.
 
-### Code Splitting
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Feel free to use this project as a template for creating your own portfolio website. Customize the content, add your projects, update your skills, and make it your own. Showcase your work and skills to the world!
 
-### Analyzing the Bundle Size
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+If you'd like to contribute to this project or report issues, please check the [Contribution Guidelines](CONTRIBUTING.md).
 
-### Making a Progressive Web App
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project is licensed under the [MIT License](LICENSE).
 
-### Advanced Configuration
+## Get in Touch
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+I'm excited to share my work and experiences with you through this portfolio website. Feel free to explore the different sections and get in touch if you have any questions or opportunities for collaboration. You can reach me via the contact form, and I'll get back to you as soon as possible.
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for visiting my personal portfolio website, and I look forward to connecting with you!

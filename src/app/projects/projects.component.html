@@ -1,0 +1,15 @@
+<layout id="projects" cols="3">
+  <div class="w-max">
+    <h3 class="text-2xl text-blue-600 dark:text-blue-400">Projects</h3>
+    <span class="text-gray-900 dark:text-white">See all projects on my GitHub <a
+        href="https://github.com/daviavmello" target="_blank" class="underline">here</a>.</span>
+  </div>
+
+  <div class="[column-fill:_balance] sm:columns-2 sm:gap-6 md:columns-2 xl:columns-3 lg:gap-8 col-span-2">
+    <ng-container *ngFor="let project of projects">
+      <div class="mb-8 sm:break-inside-avoid">
+        <card [title]="project.title" [body]="project.info" [href]="project.link"></card>
+      </div>
+    </ng-container>
+  </div>
+</layout>

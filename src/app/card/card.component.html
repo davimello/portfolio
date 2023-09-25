@@ -1,0 +1,19 @@
+<div
+  class="w-full mr-4 p-6 rounded-lg shadow bg-white dark:bg-blue-900 hover:shadow-xl transition-all duration-800 flex flex-col justify-between"
+>
+  <div>
+    <h5 class="mb-2 text-2xl text-gray-900 dark:text-blue-400">
+      {{ title }}
+    </h5>
+    <p class="mb-5 font-normal text-gray-700 dark:text-white">
+      {{ body }}
+    </p>
+  </div>
+  <custom-button
+    [isFullWidth]="true"
+    icon="link"
+    text="Check project"
+    type="secondary"
+    (buttonClick)="onLinkClick(href)"
+  />
+</div>

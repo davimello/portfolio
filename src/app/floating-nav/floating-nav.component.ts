@@ -1,11 +1,11 @@
+import { NgIf } from '@angular/common';
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
+import { ScrollOpacityDirective } from '../directives/scroll-opacity.directive';
 import {
   Theme,
   ThemeService,
 } from '../services/theme-service/theme-service.service';
-import { NgIf } from '@angular/common';
-import { RouterLink } from '@angular/router';
-import { ScrollOpacityDirective } from '../directives/scroll-opacity.directive';
 
 @Component({
   selector: 'app-floating-nav',
@@ -14,13 +14,13 @@ import { ScrollOpacityDirective } from '../directives/scroll-opacity.directive';
   imports: [ScrollOpacityDirective, RouterLink, NgIf],
 })
 export class FloatingNavComponent {
-  theme: Theme = 'light';
+  theme: Theme = 'dark';
 
   constructor(private themeService: ThemeService) {}
 
   ngOnInit() {
     this.getCurrentTheme();
-    this.themeService.setTheme(this.theme);
+    this.themeService.applyTheme();
   }
 
   getCurrentTheme(): void {

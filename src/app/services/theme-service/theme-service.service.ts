@@ -32,7 +32,7 @@ export class ThemeService {
     }
   }
 
-  private applyTheme() {
+  public applyTheme() {
     const currentTheme = localStorage.getItem(this.THEME_KEY);
 
     if (

@@ -4,10 +4,10 @@ import { ContactFormService } from '../services/contact-form-service/contact-for
 import { NgIf, NgClass } from '@angular/common';
 
 @Component({
-    selector: 'alert',
-    templateUrl: './alert.component.html',
-    standalone: true,
-    imports: [NgIf, NgClass],
+  selector: 'alert',
+  templateUrl: './alert.component.html',
+  standalone: true,
+  imports: [NgIf, NgClass],
 })
 export class AlertComponent {
   success: boolean;
@@ -26,7 +26,6 @@ export class AlertComponent {
     this.contactFormService.openAlertComponent$
       .pipe(take(1))
       .subscribe((success: boolean) => {
-
         if (success !== null) {
           this.success = success;
           if (success) {

@@ -46,10 +46,14 @@
             "development": {
               "buildOptimizer": false,
               "optimization": false,
-              "vendorChunk": true,
+              "outputHashing": "none",
+              "sourceMap": false,
+              "namedChunks": false,
+              "aot": true,
               "extractLicenses": false,
-              "sourceMap": true,
-              "namedChunks": true
+              "statsJson": false,
+              "progress": false,
+              "vendorChunk": true
             }
           },
           "defaultConfiguration": "production"

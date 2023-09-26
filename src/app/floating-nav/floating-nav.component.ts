@@ -14,7 +14,7 @@ import { ScrollOpacityDirective } from '../directives/scroll-opacity.directive';
   imports: [ScrollOpacityDirective, RouterLink, NgIf],
 })
 export class FloatingNavComponent {
-  theme: Theme;
+  theme: Theme = 'light';
 
   constructor(private themeService: ThemeService) {}
 

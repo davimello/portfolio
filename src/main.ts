@@ -1,4 +1,4 @@
-import { importProvidersFrom } from '@angular/core';
+import { APP_INITIALIZER, importProvidersFrom } from '@angular/core';
 import { AppComponent } from './app/app.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import {
@@ -7,10 +7,21 @@ import {
 } from '@angular/common/http';
 import { AppRoutingModule } from './app/app-routing.module';
 import { BrowserModule, bootstrapApplication } from '@angular/platform-browser';
+import { ThemeService } from './app/services/theme-service/theme-service.service';
+
+const loadTheme = (themeService: ThemeService) => {
+  return () => themeService.applyTheme();
+};
 
 bootstrapApplication(AppComponent, {
   providers: [
     importProvidersFrom(BrowserModule, AppRoutingModule, ReactiveFormsModule),
     provideHttpClient(withInterceptorsFromDi()),
+    {
+      provide: APP_INITIALIZER,
+      useFactory: loadTheme,
+      deps: [ThemeService],
+      multi: true,
+    },
   ],
 }).catch((err) => console.error(err));

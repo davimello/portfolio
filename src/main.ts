@@ -9,8 +9,11 @@ import { AppRoutingModule } from './app/app-routing.module';
 import { BrowserModule, bootstrapApplication } from '@angular/platform-browser';
 import { ThemeService } from './app/services/theme-service/theme-service.service';
 
-const loadTheme = (themeService: ThemeService) => {
-  return () => themeService.applyTheme();
+const loadTheme = (themeService: ThemeService): (() => Promise<any>) => {
+  return () =>
+    new Promise((resolve, reject) => {
+      resolve(themeService.applyTheme());
+    });
 };
 
 bootstrapApplication(AppComponent, {

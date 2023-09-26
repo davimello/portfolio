@@ -3,7 +3,7 @@ import { Router } from '@angular/router';
 import { FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { ContactFormService } from '../services/contact-form-service/contact-form.service';
 import emailjs, { EmailJSResponseStatus } from '@emailjs/browser';
-import { environment } from 'src/environments/environment';
+import { environment } from '../../environments/environment';
 import { ButtonComponent } from '../button/button.component';
 import { ClickOutsideDirective } from '../directives/click-outside.directive';
 

@@ -5,7 +5,7 @@ import { LayoutComponent } from '../layout/layout.component';
 import { NgFor, AsyncPipe } from '@angular/common';
 
 @Component({
-    selector: 'about',
+    selector: 'app-about',
     templateUrl: './about.component.html',
     standalone: true,
     imports: [

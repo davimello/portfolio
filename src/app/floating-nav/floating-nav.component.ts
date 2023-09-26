@@ -1,18 +1,17 @@
 import { Component } from '@angular/core';
-import { Theme, ThemeService } from '../services/theme-service/theme-service.service';
+import {
+  Theme,
+  ThemeService,
+} from '../services/theme-service/theme-service.service';
 import { NgIf } from '@angular/common';
 import { RouterLink } from '@angular/router';
 import { ScrollOpacityDirective } from '../directives/scroll-opacity.directive';
 
 @Component({
-    selector: 'floating-nav',
-    templateUrl: './floating-nav.component.html',
-    standalone: true,
-    imports: [
-        ScrollOpacityDirective,
-        RouterLink,
-        NgIf,
-    ],
+  selector: 'app-floating-nav',
+  templateUrl: './floating-nav.component.html',
+  standalone: true,
+  imports: [ScrollOpacityDirective, RouterLink, NgIf],
 })
 export class FloatingNavComponent {
   theme: Theme;

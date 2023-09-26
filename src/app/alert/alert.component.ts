@@ -4,7 +4,7 @@ import { ContactFormService } from '../services/contact-form-service/contact-for
 import { NgIf, NgClass } from '@angular/common';
 
 @Component({
-  selector: 'alert',
+  selector: 'app-alert',
   templateUrl: './alert.component.html',
   standalone: true,
   imports: [NgIf, NgClass],

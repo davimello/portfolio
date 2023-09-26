@@ -5,14 +5,10 @@ import { NgSwitch, NgSwitchCase, NgIf } from '@angular/common';
 type buttonType = 'primary' | 'secondary';
 
 @Component({
-    selector: 'custom-button',
-    templateUrl: './button.component.html',
-    standalone: true,
-    imports: [
-        NgSwitch,
-        NgSwitchCase,
-        NgIf,
-    ],
+  selector: 'app-button',
+  templateUrl: './button.component.html',
+  standalone: true,
+  imports: [NgSwitch, NgSwitchCase, NgIf],
 })
 export class ButtonComponent {
   @Input() text: string;

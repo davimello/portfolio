@@ -49,7 +49,7 @@
   <div>
     <ng-container *ngIf="theme == 'light'; else sunIcon">
       <!-- Moon -->
-      <button (click)="onDarkModeClick()">
+      <button (click)="onDarkModeClick()" aria-label="Dark mode button">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -70,7 +70,7 @@
 
     <ng-template #sunIcon>
       <!-- Sun -->
-      <button (click)="onLightModeClick()">
+      <button (click)="onLightModeClick()" aria-label="Light mode button">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"

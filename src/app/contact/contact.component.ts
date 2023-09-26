@@ -8,7 +8,7 @@ import { ButtonComponent } from '../button/button.component';
 import { ClickOutsideDirective } from '../directives/click-outside.directive';
 
 @Component({
-  selector: 'contact',
+  selector: 'app-contact',
   templateUrl: './contact.component.html',
   standalone: true,
   imports: [ClickOutsideDirective, ReactiveFormsModule, ButtonComponent],

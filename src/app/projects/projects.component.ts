@@ -5,14 +5,10 @@ import { NgFor } from '@angular/common';
 import { LayoutComponent } from '../layout/layout.component';
 
 @Component({
-    selector: 'projects',
-    templateUrl: './projects.component.html',
-    standalone: true,
-    imports: [
-        LayoutComponent,
-        NgFor,
-        CardComponent,
-    ],
+  selector: 'app-projects',
+  templateUrl: './projects.component.html',
+  standalone: true,
+  imports: [LayoutComponent, NgFor, CardComponent],
 })
 export class ProjectsComponent {
   projectsDataPath: string = 'assets/data/projects.json';

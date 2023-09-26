@@ -5,7 +5,7 @@ import { LayoutComponent } from '../layout/layout.component';
 import { NgFor, AsyncPipe } from '@angular/common';
 
 @Component({
-    selector: 'skills',
+    selector: 'app-skills',
     templateUrl: './skills.component.html',
     standalone: true,
     imports: [

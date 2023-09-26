@@ -3,6 +3,7 @@ import { Router } from '@angular/router';
 import { FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { ContactFormService } from '../services/contact-form-service/contact-form.service';
 import emailjs, { EmailJSResponseStatus } from '@emailjs/browser';
+import { environment } from '../../environments/environment';
 import { ButtonComponent } from '../button/button.component';
 import { ClickOutsideDirective } from '../directives/click-outside.directive';
 
@@ -53,14 +54,14 @@ export class ContactComponent {
     this.loading = true;
     emailjs
       .send(
-        process.env['EMAIL_SERVICE_ID'],
-        process.env['EMAIL_TEMPLATE_ID'],
+        environment.EMAIL_SERVICE_ID,
+        environment.EMAIL_TEMPLATE_ID,
         {
           name: this.form.get('name')?.value,
           email: this.form.get('email')?.value,
           message: this.form.get('message')?.value,
         },
-        process.env['EMAIL_PUBLIC_KEY']
+        environment.EMAIL_PUBLIC_KEY
       )
       .then(
         (result: EmailJSResponseStatus) => {

@@ -9,23 +9,25 @@ import { DividerComponent } from './divider/divider.component';
 import { ButtonComponent } from './button/button.component';
 import { FloatingNavComponent } from './floating-nav/floating-nav.component';
 import { AlertComponent } from './alert/alert.component';
+import { WrapperComponent } from './wrapper/wrapper.component';
 
 @Component({
-    selector: 'app-root',
-    templateUrl: './app.component.html',
-    standalone: true,
-    imports: [
-        RouterOutlet,
-        AlertComponent,
-        FloatingNavComponent,
-        ButtonComponent,
-        DividerComponent,
-        AboutComponent,
-        SkillsComponent,
-        ProjectsComponent,
-        FooterComponent,
-        HeroComponent
-    ],
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  standalone: true,
+  imports: [
+    RouterOutlet,
+    AlertComponent,
+    FloatingNavComponent,
+    ButtonComponent,
+    DividerComponent,
+    AboutComponent,
+    SkillsComponent,
+    ProjectsComponent,
+    FooterComponent,
+    HeroComponent,
+    WrapperComponent,
+  ],
 })
 export class AppComponent {
   constructor(public router: Router) {}

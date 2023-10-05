@@ -10,12 +10,17 @@ import { HeroComponent } from '../hero/hero.component';
 import { ProjectsComponent } from '../projects/projects.component';
 import { SkillsComponent } from '../skills/skills.component';
 import { WrapperComponent } from '../wrapper/wrapper.component';
+import { ContactComponent } from '../contact/contact.component';
+import { Router } from '@angular/router';
+import { ContactTriggerService } from '../services/contact-trigger/contact-trigger.service';
+import { take } from 'rxjs';
 
 @Component({
   selector: 'app-home',
   standalone: true,
   imports: [
     CommonModule,
+    ContactComponent,
     AlertComponent,
     FloatingNavComponent,
     ButtonComponent,
@@ -30,4 +35,29 @@ import { WrapperComponent } from '../wrapper/wrapper.component';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
 })
-export class HomeComponent {}
+export class HomeComponent {
+  showContactComponent: boolean;
+
+  constructor(
+    private router: Router,
+    private contactTriggerService: ContactTriggerService
+  ) {}
+
+  ngOnInit() {
+    this.openContactComponent();
+
+    if (this.router.url.includes('/contact')) {
+      this.contactTriggerService.open();
+    } else {
+      this.contactTriggerService.close();
+    }
+  }
+
+  openContactComponent(): void {
+    this.contactTriggerService.openContactComponent$
+      .pipe(take(1))
+      .subscribe((open: boolean) => {
+        this.showContactComponent = open;
+      });
+  }
+}

@@ -6,6 +6,7 @@ import {
   Theme,
   ThemeService,
 } from '../services/theme-service/theme-service.service';
+import { ContactTriggerService } from '../services/contact-trigger/contact-trigger.service';
 
 @Component({
   selector: 'app-floating-nav',
@@ -16,7 +17,8 @@ import {
 export class FloatingNavComponent {
   theme: Theme = 'dark';
 
-  constructor(private themeService: ThemeService) {}
+  constructor(private themeService: ThemeService, 
+    private contactTriggerService: ContactTriggerService) {}
 
   ngOnInit() {
     this.getCurrentTheme();
@@ -44,5 +46,9 @@ export class FloatingNavComponent {
 
   onLogoClick(): void {
     window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  openContact(): void {
+    this.contactTriggerService.open();
   }
 }

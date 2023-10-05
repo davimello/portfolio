@@ -9,6 +9,8 @@ export class ContactTriggerService {
   openContactComponent$: Observable<boolean> = this.openContactComponent.asObservable();
 
   open(): void {
+    console.log('open');
+    
     this.openContactComponent.next(true);
   }
 

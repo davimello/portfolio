@@ -4,8 +4,15 @@
 
     "id": "blueship",
     "title": "BlueShip",
-    "info": "BlueShip is a financial industry mobile app developed in Ionic, React, Typescript, NodeJS/Express, and MongoDB. It is an all-in-one learning platform with risk-free investments, including asset track performance for stocks, cryptocurrencies, and exchange-traded funds (ETF).",
+    "info": "BlueShip is a financial industry mobile app developed in Ionic, React, Typescript, NodeJS/Express, and MongoDB. It is an all-in-one learning platform with risk-free investments, including asset track performance for stocks, cryptocurrencies, and ETFs.",
     "link": "https://play.google.com/store/apps/details?id=com.blueship.mobile&pli=1"
+  },
+
+  {
+    "id": "reactive-location-api",
+    "title": "Reactive Location API",
+    "info": "Reactive Spring API for managing places. Developed with Spring Boot, Spring Webflux, Spring Data + R2DBC.",
+    "link": "https://github.com/daviavmello/reactive-location-api"
   },
 
   {
@@ -25,21 +32,14 @@
   {
     "id": "checkapp",
     "title": "Check app",
-    "info": "Full-stack desktop application that keeps track of weekly activities using virtual-like sticky notes. The front-end was built with React.js, React DnD, Tailwind CSS, Axios, and hosted on Netlify. The back-end was developed Node.js, Express.js, MySQL, and hosted on Heroku.",
+    "info": "Full-stack application that keeps track of weekly activities using virtual-like sticky notes. The front-end was built with React, Tailwind CSS, Axios, and hosted on Netlify. The back-end was developed Node.js, Express.js, MySQL, and hosted on Heroku.",
     "link": "https://check-app-tm.netlify.app/"
   },
 
   {
     "id": "veracruz",
     "title": "Veracruz",
-    "info": "E-commerce clothing store built with JavaScript utilizing React.js, Node.js, Bumbag UI, and PayPal API.",
+    "info": "E-commerce clothing store built with JavaScript utilizing React, Node.js, Bumbag UI, and PayPal API.",
     "link": "http://veracruz.netlify.app/"
-  },
-
-  {
-    "id": "fibonacci",
-    "title": "Fibonacci",
-    "info": "Application that compares the speed complexity of the Fibonacci algorythm using recursion and iteration. Developed with React.js, Chart.js, and vanilla CSS.",
-    "link": "https://fibonacci-daviavmello.vercel.app/"
   }
 ]

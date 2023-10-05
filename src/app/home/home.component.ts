@@ -13,7 +13,7 @@ import { WrapperComponent } from '../wrapper/wrapper.component';
 import { ContactComponent } from '../contact/contact.component';
 import { Router } from '@angular/router';
 import { ContactTriggerService } from '../services/contact-trigger/contact-trigger.service';
-import { take } from 'rxjs';
+import { Observable, Subscription, take } from 'rxjs';
 
 @Component({
   selector: 'app-home',
@@ -53,9 +53,12 @@ export class HomeComponent {
     }
   }
 
+  ngOnDestroy() {
+    this.contactTriggerService.openContactComponent.complete();
+  }
+
   openContactComponent(): void {
     this.contactTriggerService.openContactComponent$
-      .pipe(take(1))
       .subscribe((open: boolean) => {
         this.showContactComponent = open;
       });

@@ -1,4 +1,6 @@
+import { ContactTriggerService } from './../services/contact-trigger/contact-trigger.service';
 import { Component } from '@angular/core';
+import { Location } from '@angular/common';
 import { Router } from '@angular/router';
 import { FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { ContactFormService } from '../services/contact-form-service/contact-form.service';
@@ -18,7 +20,7 @@ export class ContactComponent {
   form: FormGroup;
   loading: boolean = false;
 
-  constructor(private router: Router, public formService: ContactFormService) {}
+  constructor(private router: Router, public formService: ContactFormService, private location: Location, private contactTriggerService: ContactTriggerService) {}
 
   ngOnInit() {
     document.body.classList.add('overflow-hidden'); // Prevents background scroll
@@ -41,7 +43,8 @@ export class ContactComponent {
   }
 
   onDrawerClose(): void {
-    this.router.navigateByUrl('/');
+    this.location.replaceState('/');
+    this.contactTriggerService.close();
   }
 
   handleClickOutside(): void {

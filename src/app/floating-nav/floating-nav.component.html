@@ -33,7 +33,8 @@
 
   <!-- Moon/sun icon -->
   <div>
-    <ng-container *ngIf="theme == 'light'; else sunIcon">
+    @if (theme == 'light') {
+
       <!-- Moon -->
       <button (click)="onDarkModeClick()" aria-label="Dark mode button">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"
@@ -43,9 +44,9 @@
             class="stroke-blue-600 dark:stroke-blue-400 transition-all duration-300 dark:hover:stroke-blue-700" />
         </svg>
       </button>
-    </ng-container>
+    
+} @else {
 
-    <ng-template #sunIcon>
       <!-- Sun -->
       <button (click)="onLightModeClick()" aria-label="Light mode button">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
@@ -55,6 +56,8 @@
             class="stroke-blue-600 dark:stroke-blue-400 dark:hover:stroke-blue-700 transition-all duration-300" />
         </svg>
       </button>
-    </ng-template>
-  </div>
+    
+}
+
+      </div>
 </nav>

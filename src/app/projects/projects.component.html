@@ -6,10 +6,12 @@
   </div>
 
   <div class="[column-fill:_balance] sm:columns-2 sm:gap-6 md:columns-2 xl:columns-3 lg:gap-8 col-span-2">
-    <ng-container *ngFor="let project of projects">
+    @for (project of projects; track project) {
+  
       <div class="mb-8 sm:break-inside-avoid">
         <card [title]="project.title" [body]="project.info" [href]="project.link"></card>
       </div>
-    </ng-container>
+    
+}
   </div>
 </layout>

@@ -1,8 +1,10 @@
 <app-wrapper class="relative overflow-x-hidden dark:bg-blue-950 bg-white">
 
-  <ng-container *ngIf="showContactComponent">
+  @if (showContactComponent) {
+
     <app-contact />
-  </ng-container>
+  
+}
 
   <app-alert />
   <app-floating-nav />

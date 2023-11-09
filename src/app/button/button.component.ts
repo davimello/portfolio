@@ -12,7 +12,7 @@ type buttonType = 'primary' | 'secondary';
 })
 export class ButtonComponent {
   @Input() text: string;
-  @Input() icon: string;
+  @Input() icon: string = '';
   @Input() type: buttonType = 'primary';
   @Input() href: string = '/';
   @Input() disabled: boolean = false;

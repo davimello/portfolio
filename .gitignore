@@ -9,6 +9,7 @@
 # Node
 node_modules
 /node_modules
+node_modules/
 npm-debug.log
 yarn-error.log
 
@@ -44,7 +45,6 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
-node_modules
 
 # Local Netlify folder
 .netlify

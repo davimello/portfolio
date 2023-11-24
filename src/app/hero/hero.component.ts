@@ -7,8 +7,7 @@ import { LayoutComponent } from '../layout/layout.component';
   selector: 'app-hero',
   standalone: true,
   imports: [CommonModule, ButtonComponent, LayoutComponent],
-  templateUrl: './hero.component.html',
-  styleUrls: ['./hero.component.scss'],
+  templateUrl: './hero.component.html'
 })
 export class HeroComponent {
   scrollToAbout(): void {

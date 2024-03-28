@@ -1,13 +1,13 @@
-import { ContactTriggerService } from './../services/contact-trigger/contact-trigger.service';
-import { Component } from '@angular/core';
 import { Location } from '@angular/common';
-import { Router } from '@angular/router';
+import { Component } from '@angular/core';
 import { FormGroup, ReactiveFormsModule } from '@angular/forms';
-import { ContactFormService } from '../services/contact-form-service/contact-form.service';
 import emailjs, { EmailJSResponseStatus } from '@emailjs/browser';
 import { environment } from '../../environments/environment';
 import { ButtonComponent } from '../button/button.component';
 import { ClickOutsideDirective } from '../directives/click-outside.directive';
+import { ContactFormService } from '../services/contact-form-service/contact-form.service';
+import { ContactTriggerService } from './../services/contact-trigger/contact-trigger.service';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-contact',
@@ -20,10 +20,12 @@ export class ContactComponent {
   form: FormGroup;
   loading: boolean = false;
 
-  constructor(private router: Router, public formService: ContactFormService, private location: Location, private contactTriggerService: ContactTriggerService) {}
+  constructor(public formService: ContactFormService, private location: Location, private contactTriggerService: ContactTriggerService, private titleService: Title, private metaService: Meta) { }
 
   ngOnInit() {
     document.body.classList.add('overflow-hidden'); // Prevents background scroll
+    this.titleService.setTitle("Davi Mello - Contact");
+    this.metaService.addTag({name: "description", content: "Get in touch with Davi Mello"});
     this.handleShowDrawer();
     this.form = this.formService.createForm();
   }

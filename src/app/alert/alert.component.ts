@@ -18,10 +18,6 @@ export class AlertComponent {
   constructor(private contactFormService: ContactFormService) {}
 
   ngOnInit() {
-    this.success = true;
-    this.header = 'Right on!';
-    this.subheader =
-      'Your e-mail has been sent. You can expect a response within 48 hours.';
     this.openAlertComponent();
     this.handleShowDrawer();
   }

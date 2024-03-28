@@ -1,7 +1,7 @@
-import { Component, OnInit } from '@angular/core';
-import { Observable, take } from 'rxjs';
+import { NgClass, NgIf } from '@angular/common';
+import { Component } from '@angular/core';
+import { take } from 'rxjs';
 import { ContactFormService } from '../services/contact-form-service/contact-form.service';
-import { NgIf, NgClass } from '@angular/common';
 
 @Component({
   selector: 'app-alert',

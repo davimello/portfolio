@@ -1,9 +1,8 @@
 @if (success != null) {
 
-  <div
-    role="alert"
-    class="rounded-xl transition-transform duration-300 transform shadow-md w-80 md:w-96 z-50 fixed -top-40 md:-top-24 right-[calc(50%-160px)] md:right-[calc(50%-192px)] border-2 p-4"
-    [ngClass]="{
+<div role="alert"
+  class="rounded-xl transition-transform duration-300 transform shadow-md w-80 md:w-96 z-50 fixed -top-40 md:-top-24 right-[calc(50%-160px)] md:right-[calc(50%-192px)] border-2 p-4 -translate-y-"
+  [ngClass]="{
       'dark:bg-green-900': success,
       'bg-green-200': success,
       'border-green-400': success,
@@ -11,102 +10,66 @@
       'bg-red-200': !success,
       'border-red-400': !success,
       'translate-y-44': toggleDrawer,
-      '!translate-y-0': !toggleDrawer,
+      '!-translate-y-4': !toggleDrawer,
       'md:translate-y-28': toggleDrawer,
-      'md:!translate-y-0': !toggleDrawer
-    }"
-  >
-    <div class="flex items-start gap-4">
-      <span [ngClass]="{
+      'md:!-translate-y-4': !toggleDrawer
+    }">
+  <div class="flex items-start gap-4">
+    <span [ngClass]="{
         'dark:text-green-400': success,
         'text-green-700': success,
         'dark:text-red-400': !success,
         'text-red-700': !success,
       }">
-        @if (success) {
+      @if (success) {
 
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="h-6 w-6"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-            />
-          </svg>
-        
-} @else {
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="h-6 w-6">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
 
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="w-6 h-6"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z"
-            />
-          </svg>
-        
-}
+      } @else {
 
-              </span>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z" />
+      </svg>
 
-      <div class="flex-1">
-        <strong
-          class="block font-medium"
-          [ngClass]="{
+      }
+
+    </span>
+
+    <div class="flex-1">
+      <strong class="block font-medium" [ngClass]="{
             'text-green-700': success,
             'dark:text-green-300': success,
             'text-red-700': !success,
             'dark:text-red-300': !success,
-          }"
-        >
-          {{ header }}
-        </strong>
+          }">
+        {{ header }}
+      </strong>
 
-        <p class="mt-1 text-sm text-gray-700 dark:text-white">
-          {{ subheader }}
-        </p>
-      </div>
+      <p class="mt-1 text-sm text-gray-700 dark:text-white">
+        {{ subheader }}
+      </p>
+    </div>
 
-      <button
-        class="transition hover:text-gray-600 dark:hover:text-green-400"
-        [ngClass]="{
+    <button class="transition hover:text-gray-600 dark:hover:text-green-400" [ngClass]="{
           'text-green-700': success,
           'dark:text-green-300': success,
           'text-red-700': !success,
           'dark:text-red-300': !success,
-        }"
-        (click)="onAlertClose()"
-      >
-        <span class="sr-only">Dismiss popup</span>
+        }" (click)="onAlertClose()">
+      <span class="sr-only">Dismiss popup</span>
 
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="currentColor"
-          class="h-6 w-6"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M6 18L18 6M6 6l12 12"
-          />
-        </svg>
-      </button>
-    </div>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="h-6 w-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </button>
   </div>
+</div>
 
 }

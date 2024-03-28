@@ -39,12 +39,12 @@ export class HomeComponent {
   constructor(
     private router: Router,
     private contactTriggerService: ContactTriggerService
-  ) {}
+  ) { }
 
   ngOnInit() {
     this.openContactComponent();
 
-    if (this.router.url.includes('/contact')) {
+    if (this.router.url.includes('contact')) {
       this.contactTriggerService.open();
     } else {
       this.contactTriggerService.close();

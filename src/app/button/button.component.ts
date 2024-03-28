@@ -1,6 +1,6 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Router } from '@angular/router';
-import { NgSwitch, NgSwitchCase, NgIf } from '@angular/common';
+import { NgSwitch, NgSwitchCase, NgIf, NgTemplateOutlet, NgClass } from '@angular/common';
 
 type buttonType = 'primary' | 'secondary';
 
@@ -8,7 +8,7 @@ type buttonType = 'primary' | 'secondary';
   selector: 'app-button',
   templateUrl: './button.component.html',
   standalone: true,
-  imports: [NgSwitch, NgSwitchCase, NgIf],
+  imports: [NgSwitch, NgSwitchCase, NgIf, NgTemplateOutlet, NgClass],
 })
 export class ButtonComponent {
   @Input() text: string;
@@ -21,7 +21,7 @@ export class ButtonComponent {
   @Input() isFullWidth: boolean = false;
 
   @Output() buttonClick = new EventEmitter<Event>();
-  constructor(public router: Router) {}
+  constructor(public router: Router) { }
 
   onClick(e: Event): void {
     if (!this.disabled) {

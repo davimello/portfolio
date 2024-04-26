@@ -6,7 +6,7 @@ import {
   provideHttpClient,
 } from '@angular/common/http';
 import { AppRoutingModule } from './app/app-routing.module';
-import { BrowserModule, bootstrapApplication } from '@angular/platform-browser';
+import { BrowserModule, bootstrapApplication, provideClientHydration } from '@angular/platform-browser';
 import { ThemeService } from './app/services/theme-service/theme-service.service';
 
 const loadTheme = (themeService: ThemeService): (() => Promise<any>) => {
@@ -25,6 +25,6 @@ bootstrapApplication(AppComponent, {
       useFactory: loadTheme,
       deps: [ThemeService],
       multi: true,
-    },
+    }, provideClientHydration(),
   ],
 }).catch((err) => console.error(err));

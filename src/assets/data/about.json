@@ -1,7 +1,7 @@
 [
   {
     "folder": "About",
-    "id": "about",
+    "$id": "about",
     "info": "As a software engineer with a background in front-end development and a focus on problem-solving, I have built full-stack applications using robust technologies including Java and Spring. I also have experience in developing scalable applications and accessible Design Systems with React, Angular, and TypeScript. I am equipped to tackle complex projects and deliver user-friendly solutions."
   }
 ]

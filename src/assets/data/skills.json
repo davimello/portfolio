@@ -1,19 +1,19 @@
 [
   {
     "folder": "Skills & Interests",
-    "id": "lang",
+    "$id": "lang",
     "title": "Languages",
     "info": "TypeScript, Java, HTML & SCSS."
   },
 
   {
-    "id": "frameworks",
+    "$id": "frameworks",
     "title": "Frameworks",
     "info": "Angular & RxJS, React & Redux, Spring Boot & Spring Batch, SQL Server, Node.js, jQuery."
   },
 
   {
-    "id": "interests",
+    "$id": "interests",
     "title": "Interests",
     "info": "Product development, component & integration testing, and API design."
   }

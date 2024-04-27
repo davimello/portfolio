@@ -114,16 +114,16 @@
             "development": {
               "buildOptimizer": false,
               "outputHashing": "none",
-              "optimization": false,
-              "sourceMap": false,
-              "extractLicenses": false,
-              "vendorChunk": true,
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
                   "with": "src/environments/environment.development.ts"
                 }
-              ]
+              ],
+              "optimization": false,
+              "sourceMap": false,
+              "extractLicenses": false,
+              "vendorChunk": true
             }
           },
           "defaultConfiguration": "production"

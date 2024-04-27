@@ -1,12 +1,13 @@
-import { APP_INITIALIZER, importProvidersFrom } from '@angular/core';
-import { AppComponent } from './app/app.component';
-import { ReactiveFormsModule } from '@angular/forms';
 import {
-  withInterceptorsFromDi,
   provideHttpClient,
+  withInterceptorsFromDi,
 } from '@angular/common/http';
-import { AppRoutingModule } from './app/app-routing.module';
+import { APP_INITIALIZER, importProvidersFrom } from '@angular/core';
+import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule, bootstrapApplication, provideClientHydration } from '@angular/platform-browser';
+import { provideRouter } from '@angular/router';
+import { AppComponent } from './app/app.component';
+import { routes } from './app/routes';
 import { ThemeService } from './app/services/theme-service/theme-service.service';
 
 const loadTheme = (themeService: ThemeService): (() => Promise<any>) => {
@@ -18,13 +19,14 @@ const loadTheme = (themeService: ThemeService): (() => Promise<any>) => {
 
 bootstrapApplication(AppComponent, {
   providers: [
-    importProvidersFrom(BrowserModule, AppRoutingModule, ReactiveFormsModule),
+    importProvidersFrom(BrowserModule, ReactiveFormsModule),
+    provideRouter(routes),
     provideHttpClient(withInterceptorsFromDi()),
     {
       provide: APP_INITIALIZER,
       useFactory: loadTheme,
       deps: [ThemeService],
       multi: true,
-    }, provideClientHydration(),
+    }, provideClientHydration()
   ],
 }).catch((err) => console.error(err));
